@@ -255,15 +255,6 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
-p i {
-  font-size: 25px !important;
-  color: #0fafd4;
-  margin-bottom: 15px;
-  margin-top: 50px;
-  display: block;
-  text-align: center;
-}
-
 .special-title h2 {
   text-transform: none;
   margin-bottom: 0;

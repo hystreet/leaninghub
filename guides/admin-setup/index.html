@@ -9,6 +9,9 @@ menu: site.data.birds
 <!--
   breadcrumbs()
 //-->
+  function shiftWindow () { scrollBy(0, -100) };
+  if (location.hash) shiftWindow();
+  window.addEventListener("hashchange", shiftWindow);
 
 </script>
 <div class="columns left large-3 lh-left-nav">
@@ -44,7 +47,7 @@ menu: site.data.birds
   <h3> Your Brand </h3>
   <p> We work with you to promote your brand, you’ll see some default placeholders with Hystreet on until you update your brand details.
     Just enter your ‘Brand Name’ as you’d like it to appear on the site and emails, then pop the URL for your main website into the ‘Brand URL’.
-  <i>(URL is the technical name for the address you use for your website such as www.estateagent.co.uk)</i> </p>
+  <i> (URL is the technical name for the address you use for your website such as www.estateagent.co.uk)</i> </p>
   <img src="/images/admin-settings-brand-name.png">
 
   <h3> Your Logo </h3>
@@ -82,16 +85,38 @@ menu: site.data.birds
   <img src="/images/contact-details-field.png">
 
   <h3> Book a Valuation Map </h3>
-  <p> n the very first page of the book a valuation process (before we know a postcode or address) we like to show a map of the area you cover to help the customer get a feel for your area.
+  <p> On the very first page of the book a valuation process (before we know a postcode or address) we like to show a map of the area you cover to help the customer get a feel for your area.
     As soon as we get their postcode it shows a map of their local area to re-enforce that personal feeling. </p>
-  <p>You can set this up and change this yourself (for when you open more branches), simply enter the postcode you’d like the map to centre on and pick a zoom level.
+  <p> You can set this up and change this yourself (for when you open more branches), simply enter the postcode you’d like the map to centre on and pick a zoom level.
     If it helps, most agents opt for zoom level 13.</p>
-  <p>Click ‘Save’ and then check out the map by going to your main page and clicking the ‘Book a Valuation’ button.</p>
+  <p> Click ‘Save’ and then check out the map by going to your main page and clicking the ‘Book a Valuation’ button.</p>
   <img src="/images/default-map-fields.png">
 </div>
 
 <div><h2 id="admin-part-3"> Setting up your first branch </h2>
-<p> </P>
+  <p> Branch setup is where you get to set your branch name, contact details and addresses for system emails, but most importantly you get to set your pricing and configure your account to take payments! </P>
+  <p> Under the ‘Branches’ button in your Admin area you’ll see your branch (or a list if you have more than one), simply click the ‘View’ button next to the branch you want to setup or update. </p>
+  <img src="/images/branch-list-example.png">
+  <p> There are quite a few fields in this section so we’re going to list them one by one for you.
+    The details you enter here will be used both on the website and in emails so it’s important to get them right.
+
+  <ul>
+    <li> <b>Branch Name:</b> Enter the name of your branch, if you have just the one branch then feel free to use your main company name. </li>
+    <li> <b>Branch address:</b> Enter the full address for the branch you are setting up, it’s important to use the full address as this will also appear on the Memorandum of Sale. </li>
+    <li> <b>Branch phone:</b> Enter the number for the branch that you’d like the customer to call you on if they have any issues. You can format this as you would like it to show just by putting spaces in the number. </li>
+    <li> <b>Branch registration number:</b> This is your Companies House registration number, this is displayed on the footer of emails for you. </li>
+    <li> <b>No-reply email:</b> Emails sent from the system will show this as the reply address, so if your customer clicks reply on any of your emails they can be delivered back to you. </li> To make sure your emails are successfully delivered and don’t go into Junk or Spam folders we’ll always set the From address to a Hystreet email address. </li>
+    <li> <b>BCC email:</b> You can designate an email address to receive a copy of all emails sent out by the system. This isn’t compulsory but can be particularly useful if you have a branch or team mailbox so that everyone is actively notified of any updates on a property sale. </li>
+    <li> <b>Support email:</b> This is not currently used but is in preparation for a future feature update. We’ll let you know when the feature is released. </li>
+  </ul>
+
+  <h3> Setting your main fees </h3>
+   <p> You can set your fees for each branch independently, so if you had a London branch for example, it’s common to set a higher fee for that branch.
+     We’ll run through the fees here, but if you need any more information or help with these then get in touch with your Customer Success Manager. </p>
+
+  <ul>
+
+
 </div>
 
 <div><h2 id="admin-part-4"> Setting up your first agent </h2>
