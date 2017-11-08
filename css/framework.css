@@ -5206,7 +5206,7 @@ meta.foundation-mq-topbar {
   overflow: hidden;
   height: 100px;
   line-height: 100px;
-  position: relative;
+  position: fixed;
   background: #e4e4e4;
   margin-bottom: 0;
 }
