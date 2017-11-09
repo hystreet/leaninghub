@@ -243,14 +243,6 @@ h1, h2, h3, h4 {
   transition: background-color 300ms ease-out;
 }
 
-.special-title i {
-  font-size: 50px;
-  color: #0fafd4;
-  margin-bottom: 15px;
-  display: block;
-  text-align: center;
-}
-
 .special-title h2 {
   text-transform: none;
   margin-bottom: 0;
