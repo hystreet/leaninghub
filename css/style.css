@@ -1301,9 +1301,7 @@ body {
   margin-bottom: 30px;
 }
 
-.lh-left-nav {
-    position: fixed;
-}
+.lh-left-nav {}
 
 .lh-row {}
 
