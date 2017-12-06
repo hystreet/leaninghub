@@ -70,20 +70,20 @@ $(document).foundation();
     $(window).scroll(function () {
       var headerHeight = $('.top-bar').innerHeight();
       var contentHeight = $('.lh-content').innerHeight();
-      var sidebarHeight = $('.lh-left-nav').height();
+      var sidebarHeight = $('.sidebar-nav').height();
       var sidebarBottomPos = contentHeight - sidebarHeight;
       var trigger = $(window).scrollTop() - headerHeight;
 
       if ($(window).scrollTop() >= headerHeight) {
-        $('.lh-left-nav').addClass('fixed');
+        $('.sidebar-nav').addClass('sticky');
       } else {
-        $('.lh-left-nav').removeClass('fixed');
+        $('.sidebar-nav').removeClass('sticky');
       }
 
       if (trigger >= sidebarBottomPos) {
-        $('.lh-left-nav').addClass('bottom');
+        $('.sidebar-nav').addClass('bottom');
       } else {
-        $('.lh-left-nav').removeClass('bottom');
+        $('.sidebar-nav').removeClass('bottom');
       }
     });
 

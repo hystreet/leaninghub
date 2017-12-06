@@ -1301,11 +1301,11 @@ body {
   margin-bottom: 30px;
 }
 
-.lh-left-nav.fixed {
-  position: fixed;
+.sidebar-nav.sticky {
+  position: sticky;
   top: 0;
 }
-.lh-left-nav.bottom {
+.sidebar-nav.bottom {
   position: absolute;
   bottom: 0;
   top: auto;

@@ -1,3 +1,4 @@
+<ul class="sidebar-nav">
 {% for item in site.data.guides %} {% if item.children %}
 <li class="side-parent" style="list-style: none;">
   {{ item.name }}
@@ -14,4 +15,4 @@
   {{ item.name }}
 </li>
 {% endif %} {% endfor %}
-</div>
+</ul>
