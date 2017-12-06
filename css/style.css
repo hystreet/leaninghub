@@ -1301,7 +1301,15 @@ body {
   margin-bottom: 30px;
 }
 
-.lh-left-nav {}
+.lh-left-nav.fixed {
+  position: fixed;
+  top: 0;
+}
+.lh-left-nav.bottom {
+  position: absolute;
+  bottom: 0;
+  top: auto;
+}
 
 .lh-row {}
 
