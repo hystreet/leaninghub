@@ -67,27 +67,6 @@ $(document).foundation();
       return false;
     });
 
-    $(window).scroll(function () {
-      var headerHeight = $('.top-bar').innerHeight();
-      var contentHeight = $('.lh-content').innerHeight();
-      var sidebarHeight = $('.sidebar-nav').height();
-      var sidebarBottomPos = contentHeight - sidebarHeight;
-      var trigger = $(window).scrollTop() - headerHeight;
-
-      if ($(window).scrollTop() >= headerHeight) {
-        $('.sidebar-nav').addClass('sticky');
-      } else {
-        $('.sidebar-nav').removeClass('sticky');
-      }
-
-      if (trigger >= sidebarBottomPos) {
-        $('.sidebar-nav').addClass('bottom');
-      } else {
-        $('.sidebar-nav').removeClass('bottom');
-      }
-    });
-
-
 
 
   });
