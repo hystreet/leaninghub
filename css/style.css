@@ -2436,10 +2436,13 @@ body {
 
 .image-caption img {
   margin-bottom: 0;
+  max-width: 100%;
 }
 
 .caption-text {
   text-align: right;
   margin-top: 10px;
   margin-bottom: 0;
+  color: #0fafd4;
+  clear: both;
 }
