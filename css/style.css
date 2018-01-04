@@ -1302,9 +1302,11 @@ body {
   margin-bottom: 30px;
 }
 
-.lh-left-nav {
-  position: sticky;
-  top: 130px;
+@supports (position: sticky) {
+  .lh-left-nav {
+    position: sticky;
+    top: 130px;
+  }
 }
 
 .lh-row {}
