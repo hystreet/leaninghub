@@ -85,6 +85,7 @@ h1, h2, h3, h4 {
 
 .two.spacing {
   height: 40px;
+
 }
 
 .three.spacing {
@@ -2421,4 +2422,22 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.image-caption {
+  background: #efefef;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.image-caption img {
+  margin-bottom: 0;
+}
+
+.caption-text {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
