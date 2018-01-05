@@ -1302,10 +1302,12 @@ body {
   margin-bottom: 30px;
 }
 
-@supports (position: sticky) {
+@media only screen and (min-width: 967px) {
+  @supports (position: sticky) {
   .lh-left-nav {
     position: sticky;
     top: 130px;
+    }
   }
 }
 
