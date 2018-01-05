@@ -2434,6 +2434,12 @@ body {
   display: inline-block;
 }
 
+@media only screen and (min-width: 967px) {
+  .image-caption {
+    max-width: 75%;
+  }
+}
+
 .image-caption img {
   margin-bottom: 0;
   max-width: 100%;
