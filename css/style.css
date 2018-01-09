@@ -2455,3 +2455,8 @@ body {
   font-style: italic;
   clear: both;
 }
+
+.mb-15 {
+  margin-bottom: 15px !important;
+
+}
