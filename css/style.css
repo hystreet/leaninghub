@@ -2445,6 +2445,7 @@ body {
 .image-caption img {
   margin-bottom: 0;
   width: 100%;
+  max-width: 100%;  /*overrides .lh-content img*/
 }
 
 .caption-text {
