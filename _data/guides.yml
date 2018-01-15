@@ -5,110 +5,110 @@
       path: guides/admin-setup
       Children:
         - name: logging in
-          path:
+          path: guides/admin-setup/logging-in
         - name: Agency Config
-          path:
+          path: guides/admin-setup/agency-config
         - name: Branding
-          path:
+          path: guides/admin-setup/branding
         - name: Agents
-          path:
+          path: guides/admin-setup/agents
         - name: Branches
-          path:
+          path: guides/admin-setup/branches
         - name: adding staff
-          path:
+          path: guides/admin-setup/adding-staff
         - name: T&Cs
-          path:
+          path: guides/admin-setup/terms-conditions
         - name: Stripe
-          path:
+          path: guides/admin-setup/stripe
     - name: Using the staff site
       path: guides/staff-site
       Children:
         - name: Finding your way around
-          path:
+          path: guides/staff-site/navigation
         - name: The Dashboard and the Diary
-          path:
+          path: guides/staff-site/dashboard-diary
         - name: Properties
-          path:
+          path: guides/staff-site/properties
           Children:
             - name: Details
-              Path:
+              Path: guides/staff-site/properties/details
             - name: Listing
-              path:
+              path: guides/staff-site/properties/listing
             - name: Compliance
-              path:
+              path: guides/staff-site/properties/compliance
             - name: Appointments
-              path:
+              path: guides/staff-site/properties/appointments
             - name: Offers
-              path:
+              path: guides/staff-site/properties/offers
         - name: Buyers List
-          path:
+          path: guides/staff-site/buyers
     - name: As a buyer
-      path:
+      path: guides/buyer
       Children:
         - name: Looking at properties
-          path:
+          path: guides/buyer/looking-at-properties
         - name: booking a viewing
-          path:
+          path: guides/buyer/booking-a-viewing
         - name: Confirming your account
-          path:
+          path: guides/buyer/confirming-your-account
         - name: Giving feedback
-          path:
+          path: guides/buyer/giving-feedback
         - name: Making an offer
-          path:
+          path: guides/buyer/making-an-offer
         - name: Finalising your sale
-          path:
+          path: guides/buyer/finalising-sale
     - name: As a seller
-      path:
+      path: guides/seller
       Children:
         - name: Booking a valuation
-          path:
+          path: guides/seller/booking-valuation
         - name: Instructing to sell
-          path:
+          path: guides/seller/instructing-to-sell
         - name: Getting to market
-          path:
+          path: guides/seller/getting-to-market
         - name: Managing your availability
-          path:
+          path: guides/seller/managing-your-availability
         - name: Checking Feedback
-          path:
+          path: guides/seller/checking-feedback
         - name: Offers and Negotiation
-          path:
+          path: guides/seller/offers
         - name: Finialising your sale
-          path:
+          path: guides/seller/finalising-sale
     - name: Appointments
-      path:
+      path: guides/appointments
       Children:
         - name: Valuation Appointments
-          path:
+          path: guides/appointments/valuation
         - name: Launch Appointments
-          path:
+          path: guides/appointments/launch
         - name: Viewings
-          path:
+          path: guides/appointments/viewing
     - name: Models and pricing
-      path:
+      path: guides/models
       Children:
         - name: The Fighter Brand
-          path:
+          path: guides/models/fighter-brand
         - name: Hybrid Agency
-          path:
+          path: guides/models/hybrid-agency
         - name: Testing new territories
-          Path:
+          Path: guides/models/new-territories
         - name: A portal for the traditional agents
-          path:
+          path:  guides/models/traditional-portal
     - name: Setting up your portals
-      path:
+      path: guides/portal-setup
       Children:
         - name: Rightmove
-          path:
+          path: guides/portal-setup/rightmove
         - name: Zoopla
-          path:
+          path: guides/portal-setup/zoopla
         - name: OnTheMarket
-          path:
+          path:  guides/portal-setup/onthemarket
     - name: Updating your website
-      path:
+      path: guides/your-website
       Children:
         - name: buttons
-          path:
+          path: guides/your-website/buttons
         - name: Properties List
-          path:
+          path: guides/your-website/list
         - name: Data feed
-          path:
+          path: guides/your-website/data-feed
