@@ -1,14 +1,114 @@
 - name: Guides
   section_id: guides
   children:
-    - name: Admin Setup
+    - name: Getting Started with Hystreet
       path: guides/admin-setup
-    - name: From The Staff Site
+      Children:
+        - name: logging in
+          path:
+        - name: Agency Config
+          path:
+        - name: Branding
+          path:
+        - name: Agents
+          path:
+        - name: Branches
+          path:
+        - name: adding staff
+          path:
+        - name: T&Cs
+          path:
+        - name: Stripe
+          path:
+    - name: Using the staff site
       path: guides/staff-site
-    - name: From The Consumer Site
-      path: guides/consumer-site
-      children:
-        - name: The Sellers' Process
-          path: guides/consumer-site/the-sellers-process
-        - name: The Buyers' Process
-          path: guides/consumer-site/buyers-process
+      Children:
+        - name: Finding your way around
+          path:
+        - name: The Dashboard and the Diary
+          path:
+        - name: Properties
+          path:
+          Children:
+            - name: Details
+              Path:
+            - name: Listing
+              path:
+            - name: Compliance
+              path:
+            - name: Appointments
+              path:
+            - name: Offers
+              path:
+        - name: Buyers List
+          path:
+    - name: As a buyer
+      path:
+      Children:
+        - name: Looking at properties
+          path:
+        - name: booking a viewing
+          path:
+        - name: Confirming your account
+          path:
+        - name: Giving feedback
+          path:
+        - name: Making an offer
+          path:
+        - name: Finalising your sale
+          path:
+    - name: As a seller
+      path:
+      Children:
+        - name: Booking a valuation
+          path:
+        - name: Instructing to sell
+          path:
+        - name: Getting to market
+          path:
+        - name: Managing your availability
+          path:
+        - name: Checking Feedback
+          path:
+        - name: Offers and Negotiation
+          path:
+        - name: Finialising your sale
+          path:
+    - name: Appointments
+      path:
+      Children:
+        - name: Valuation Appointments
+          path:
+        - name: Launch Appointments
+          path:
+        - name: Viewings
+          path:
+    - name: Models and pricing
+      path:
+      Children:
+        - name: The Fighter Brand
+          path:
+        - name: Hybrid Agency
+          path:
+        - name: Testing new territories
+          Path:
+        - name: A portal for the traditional agents
+          path:
+    - name: Setting up your portals
+      path:
+      Children:
+        - name: Rightmove
+          path:
+        - name: Zoopla
+          path:
+        - name: OnTheMarket
+          path:
+    - name: Updating your website
+      path:
+      Children:
+        - name: buttons
+          path:
+        - name: Properties List
+          path:
+        - name: Data feed
+          path:
