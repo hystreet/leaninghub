@@ -10,3 +10,4 @@ collections:
 tipue_search:
   include:
     pages: true
+gems: [jekyll-paginate]
