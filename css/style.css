@@ -1306,7 +1306,7 @@ body {
   @supports (position: sticky) {
   .lh-left-nav {
     position: sticky;
-    top: 130px;
+    top: 250px;
     }
   }
 }
@@ -2418,7 +2418,7 @@ body {
 }
 
 .anchor {
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .image-75-centered {
@@ -2465,4 +2465,16 @@ body {
 .mb-30 {
   margin-bottom: 30px !important;
 
+}
+
+.under-construction-bar {
+  background-color: #ffeed0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #C87D00;
+}
+.under-construction-bar p {
+  margin-bottom: 0;
 }
