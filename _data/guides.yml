@@ -1,8 +1,8 @@
 - name: Guides
   section_id: guides
   children:
-    - name: Getting Started with Hystreet
-      path: guides/admin-setup
+    - name: Getting started with Hystreet
+      path: guides/getting-started-with-hystreet
       Children:
         - name: logging in
           path: guides/admin-setup/logging-in
@@ -20,6 +20,8 @@
           path: guides/admin-setup/terms-conditions
         - name: Stripe
           path: guides/admin-setup/stripe
+    - name: Setting up Stripe
+      path: guides/setting-up-stripe
     - name: Using the staff site
       path: guides/staff-site
       Children:
