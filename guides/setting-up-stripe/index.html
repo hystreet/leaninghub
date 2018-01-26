@@ -1,0 +1,33 @@
+---
+layout: default
+title: Guides | Where Technology Meets Tradition
+description: A software platform that any agent can use to offer the advantages of an online/hybrid service with the benefits of a highly experienced local agent.
+section_id: home
+menu: site.data.birds
+---
+
+<div class="columns left large-3 lh-left-nav">
+  {% include guides.html %}
+
+<div class="columns right large-9 lh-content">
+  <h1>Setting up your stripe account</h1>
+  <p>We use Stripe.com for processing your payments, as one of the largest online payment providers in the world they are both reliable and competitively priced.
+    When you sign up for your Stripe account you’ll be provided with both a set of test keys and a set of live keys.
+    Think of these keys like a deposit box that allows the system to process those payments on your behalf.</p>
+  <p>Stripe has excellent support documention, so go to <a href="https://support.stripe.com/"> here </a> if you've got any questions related to setting up a Stripe account</p>
+  <p>To find your stripe keys, you’ll need to visit <a>https://dashboard.stripe.com/</a></P>
+  <p>After logging in, follow the API link in the left hand column.
+    This page will show you your publishable (public) and secret live keys.
+    You’ll need to enter these two keys in the branch settings to take payments. </p>
+  <p>On the right hand side of the stripe API page you will see a toggle to swap between showing your live and test keys.
+  Simply click this to show your test keys instead.</p>
+  <img src="/images/stripe-test-switch.png">
+  <p>If you’re unsure of which keys you are currently using, take a look at the fields where you’ve entered the keys on the staff site.
+    Near the start of each key you will see either the words ‘test’ or ‘live’.</P>
+    <strong> Test Keys </strong> <br>
+    <p> If you enter your test keys here (usually of the format sk_test_xxxx and pk_test_xxxx) you’ll be able to see how the system handles different responses for you using the test card numbers.
+      For just running through some test customers and doing training the card number you are looking for is 4242 4242 4242 4242.
+      With that card you can use any 3 digit CVC and any expiry date that is in the future. </p>
+    <strong> Live Keys </strong> <br>
+    <p> If you enter your live keys here (usually of the format sk_live_xxxx and pk_test_xxxx) you’ll be all set to start taking real world payments from customers! </p>
+  </div>
