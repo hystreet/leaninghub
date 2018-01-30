@@ -2497,3 +2497,10 @@ body {
 .image-button-box p{
   margin-bottom: 0;
 }
+
+.breadcrumb-wrapper {
+  width: 100%;
+  position: fixed;
+  background: white;
+  z-index: 1;
+}
