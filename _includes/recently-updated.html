@@ -1,0 +1,18 @@
+<ul class="sidebar-nav">
+{% for item in site.data.side %} {% if item.children %}
+<li class="side-parent" style="list-style: none;">
+  {{ item.name }}
+  <ul>
+    {% for child in item.children %}
+    <li class="side-child" style="list-style: none;">
+      <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</li>
+{% else %}
+<li class="side-parent" style="list-style: none;">
+  {{ item.name }}
+</li>
+{% endif %} {% endfor %}
+</ul>

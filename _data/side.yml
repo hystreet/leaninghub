@@ -1,24 +1,13 @@
-- name: FAQs
-  section_id: faqs
+- name: Recently updated!
+  section_id: What's new
   children:
-    - name: All FAQs
-      path: faqs/
-- name: Training
-  section_id: training
-  children:
-    - name: Coming soon
-      path: coming-soon/
-- name: Guides
-  section_id: guides
-  children:
-    - name: Admin Setup
-      path: guides/admin-setup/
-    - name: From the Staff Site
+    - name: Guide directory page
+      path: guides/
+    - name: Getting started with Hystreet
+      path: guides/getting-started-with-hystreet/
+    - name: Setting up stripe
+      path: guides/setting-up-stripe/
+    - name: Using the staff site
       path: guides/staff-site/
-    - name: From the Consumer Site
-      path: guides/consumer-site/
-- name: Knowledgebase
-  section_id: knowledgebase
-  children:
-    - name: Coming soon
-      path: coming-soon/
+    - name: Getting support
+      path: support/
