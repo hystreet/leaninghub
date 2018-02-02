@@ -1,21 +1,15 @@
 - name: FAQs
   section_id: faqs
   children:
-    - name: Who can help me if I have an issue?
-      path: faqs/request-support
-    - name: Can I request new features?
-      path: faqs/request-features
-    - name: How will I be notified of developments in the market process?
-      path: faqs/notification-emails
-    - name: Could I arrange an open day for a property?
-      path: faqs/open-day-how-to
-    - name: Why can I book multiple appointments in the same slot on the staff site?
-      path: faqs/staff-double-booking
-    - name: Am I at risk of double bookings being made from the consumer site?
-      path: faqs/consumer-double-booking
-    - name: Are available booking slots taken from the agent's availability or the vendors?
-      path: faqs/manage-viewings-by
-    - name: Can I run test properties?
-      path: faqs/stripe-test-keys
-    - name: Where can I find my Stripe keys?
-      path: faqs/finding-stripe-keys
+    - name: Admin Options and Customisation
+      path: faqs/admin-options/
+    - name: Appointments and Bookings
+      path: faqs/appointments/
+    - name: Emails and Notifications
+      path: faqs/emails/
+    - name: Taking Payment
+      path: faqs/payment/
+    - name: Getting Support
+      path: faqs/support/
+    - name: Testing the Platform
+      path: faqs/testing/
