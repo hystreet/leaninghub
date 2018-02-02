@@ -1,0 +1,26 @@
+machine:
+  environment:
+    JEKYLL_ENV: production
+    RUBY_ENV: production
+  ruby:
+    version: 2.4.0
+dependencies:
+  pre:
+    - gem install jekyll s3_website jekyll-sitemap jekyll-paginate jekyll-gist jekyll-pagination
+  override:
+    - bundle install: # note the colon here
+        timeout: 240 # note the double indentation (four spaces) here
+  cache_directories:
+    - "/opt/circleci/.rvm/gems"
+compile:
+  override:
+    - bundle exec jekyll b -d $CIRCLE_ARTIFACTS
+test:
+  override:
+    - echo "Go Wild Cats" # We don't have tests yet but something has to go here.
+deployment:
+  # Deploy master
+  production:
+    branch: master
+    commands:
+      - s3_website push
