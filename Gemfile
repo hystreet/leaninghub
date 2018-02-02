@@ -7,5 +7,5 @@ gem 'jekyll-paginate'
 # Added at 2018-01-15 15:18:35 +0000 by root:
 gem "jekyll-pagination", "~> 0.0.4"
 
-# Added at 2018-01-30 by JohnWeaver // Allows CircleCI to upload to S3
-gem 's3_website '
+# Added at 2018-02-02 11:36:54 +0000 by kevin:
+gem "s3_website", "~> 3.4"
