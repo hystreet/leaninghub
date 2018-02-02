@@ -11,3 +11,9 @@ tipue_search:
   include:
     pages: true
 gems: [jekyll-paginate]
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - s3_website.yml
+  - circle.yml
