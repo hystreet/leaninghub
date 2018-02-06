@@ -1,13 +1,11 @@
 - name: Recently updated 🔥
   section_id: What's new
   children:
-    - name: Guide directory page
-      path: guides/
+    - name: Frequently Asked Questions
+      path: faqs/
     - name: Getting started with Hystreet
       path: guides/getting-started-with-hystreet/
     - name: Setting up stripe
       path: guides/setting-up-stripe/
     - name: Using the staff site
       path: guides/staff-site/
-    - name: Getting support
-      path: support/
