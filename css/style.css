@@ -590,6 +590,8 @@ textarea {
 .footer {
   background: #232323;
   padding: 40px 0 20px;
+  position: relative;
+  z-index: 3;
 }
 
 .footer h1 {
@@ -1306,8 +1308,14 @@ body {
   @supports (position: sticky) {
   .lh-left-nav {
     position: sticky;
-    top: 250px;
+    top: 195px;
     }
+  }
+}
+@media only screen and (max-height: 750px){
+  .lh-left-nav {
+    position: relative;
+    top: 0;
   }
 }
 
