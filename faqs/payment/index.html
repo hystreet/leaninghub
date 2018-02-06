@@ -11,14 +11,24 @@ menu: site.data.birds
   {% include faqs.html %}
 <div class="columns right large-9 lh-content">
   <h1>Taking Payment</h1>
-
-  <strong>Where can I find my Stripe keys?</strong>
-  <p>
-  To find your stripe keys, you’ll need to visit <a>https://dashboard.stripe.com/</a></P>
-  <p>
-  After logging in, follow the API link in the left hand column. This page will show you yours publishable (public) and secret live keys. You’ll need to enter these two keys in the branch settings on your staff to take payments. </p>
-  <p>
-  On the right hand side of the stripe API page you will see a toggle to swap between showing your live and test keys. Simply click this to show your test keys instead.</p>
-  <img src="/images/stripe-test-switch.png">
-  <p>
-  If you’re unsure of which keys you are currently using, take a look at the fields where you’ve entered the keys on the staff site. Near the start of each key you will see either the words ‘test’ or ‘live’.</P>
+  <dl class="accordion" data-accordion>
+    <dd class="accordion-navigation">
+      <a href="#panel1"><strong>Where can I find my Stripe keys?</strong></a>
+      <div id="panel1" class="content active">
+        <p>To find your stripe keys, you’ll need to visit <a>https://dashboard.stripe.com/</a></P>
+        <p>After logging in, follow the API link in the left hand column.
+          This page will show you yours publishable (public) and secret live keys.
+          You’ll need to enter these two keys in the branch settings on your staff to take payments. </p>
+        <p>On the right hand side of the stripe API page you will see a toggle to swap between showing your live and test keys.
+          Simply click this to show your test keys instead.</p>
+        <div class="text-center mb-30">
+          <div class="image-caption">
+            <img src="/images/stripe-test-switch.png">
+            <p class="caption-text">here's what the switch to find your test keys looks like</p>
+          </div>
+        </div>
+        <p>If you’re unsure of which keys you are currently using, take a look at the fields where you’ve entered the keys on the staff site.
+          Near the start of each key you will see either the words ‘test’ or ‘live’.</P>
+      </div>
+    </dd>
+  </dl>

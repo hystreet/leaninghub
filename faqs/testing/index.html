@@ -11,11 +11,15 @@ menu: site.data.birds
   {% include faqs.html %}
 <div class="columns right large-9 lh-content">
   <h1>Testing the Platform</h1>
-  <strong>Can I run test properties?</strong>
-  <p>
-  It is possible to run test properties.
-  In order to do so, a user on the staff site with admin rights will need enter your branch’s stripe public and secret test keys by going to admin -> branches.
-  While using the test keys, you will be able to complete test payments using the given test card details.</P>
-  <p>
-  Once you have finished testing, you will need to switch your stripe keys back to the live codes in order to continue handling real life products.
-  If you are unsure of where to find your stripe keys, go <a href="http://learninghub.hystreet.co.uk/faqs/finding-stripe-keys/">here</a>.</p>
+  <dl class="accordion" data-accordion>
+    <dd class="accordion-navigation">
+      <a href="#panel1"><strong>Can I run test properties?</strong></a>
+      <div id="panel1" class="content active">
+        <p>It is possible to run test properties.
+          In order to do so, a user on the staff site with admin rights will need enter your branch’s stripe public and secret test keys by going to admin -> branches.
+          While using the test keys, you will be able to complete test payments using the given test card details.</P>
+        <p>Once you have finished testing, you will need to switch your stripe keys back to the live codes in order to continue handling real life products.
+          If you are unsure of where to find your stripe keys, go <a href="http://learninghub.hystreet.co.uk/faqs/finding-stripe-keys/">here</a>.</p>
+      </div>
+    </dd>
+  </dl>
