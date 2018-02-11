@@ -1,4 +1,4 @@
-s3_bucket: learninghub.hystreet.co.uk
+s3_bucket: learninghub-live
 
 # Below are examples of all the available configurations.
 # See README for more detailed info on each of them.
