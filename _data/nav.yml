@@ -1,3 +1,6 @@
+- name: Checklist
+  path: checklist/
+  section_id: checklist
 - name: FAQs
   path: faqs/
   section_id: faqs
