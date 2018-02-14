@@ -1,3 +1,6 @@
+.top-bar-logo img{
+  height: 70px;
+}
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: white;
@@ -2509,7 +2512,7 @@ body {
 .breadcrumb-wrapper {
   width: 100%;
   position: fixed;
-  background: linear-gradient(white 60%, rgba(255,255,255,0));
+  background: linear-gradient(white 25%, rgba(255,255,255,0));
   z-index: 1;
 
 }
