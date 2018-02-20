@@ -94,7 +94,7 @@ GEM
     html-proofer (3.8.0)
       activesupport (< 6.0, >= 4.2)
       addressable (~> 2.3)
-      colorize (~> 0.8)
+      colorize (0.8.1)
       mercenary (~> 0.3.2)
       nokogiri (~> 1.8.1)
       parallel (~> 1.3)
