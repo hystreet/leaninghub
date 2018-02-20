@@ -17,7 +17,7 @@ compile:
     - bundle exec jekyll b -d $CIRCLE_ARTIFACTS
 test:
   post:
-    - bundle exec htmlproofer ./_site --allow-hash-href --check-favicon --check-html --disable-external --directory_index_file index.html
+    - bundle exec htmlproofer $CIRCLE_ARTIFACTS --allow-hash-href --check-favicon --check-html --disable-external --directory_index_file index.html
 deployment:
   # Deploy master
   production:
