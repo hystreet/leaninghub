@@ -16,8 +16,8 @@ compile:
   override:
     - bundle exec jekyll b -d $CIRCLE_ARTIFACTS
 test:
-  override:
-    - echo "Go Wild Cats" # We don't have tests yet but something has to go here.
+  post:
+    - bundle exec htmlproofer ./_site --allow-hash-href --check-favicon --check-html --disable-external
 deployment:
   # Deploy master
   production:
