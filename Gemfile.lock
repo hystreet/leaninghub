@@ -258,7 +258,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-pagination (~> 0.0.4)
   s3_website (~> 3.4)
-  html-proofer (~> 3.7.0)
+  html-proofer (~> 3.8)
 
 BUNDLED WITH
    1.16.1
