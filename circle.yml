@@ -6,7 +6,7 @@ machine:
     version: 2.4.0
 dependencies:
   pre:
-    - gem install jekyll s3_website jekyll-sitemap jekyll-paginate jekyll-gist jekyll-pagination
+    - gem install jekyll s3_website jekyll-sitemap jekyll-paginate jekyll-gist jekyll-pagination html-proofer
   override:
     - bundle install: # note the colon here
         timeout: 240 # note the double indentation (four spaces) here
