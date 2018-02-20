@@ -4,7 +4,7 @@
     - name: Onboarding Checklist
       path: checklist/
     - name: Setting Up Your Portals
-      path: portal-setup/
+      path: guides/portal-setup/
     - name: Frequently Asked Questions
       path: faqs/
     - name: Setting up stripe
