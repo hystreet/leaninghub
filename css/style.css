@@ -2514,5 +2514,8 @@ body {
   position: fixed;
   background: linear-gradient(white 25%, rgba(255,255,255,0));
   z-index: 1;
+}
 
+.numbered-list >li{
+  margin-bottom: 20px;
 }
