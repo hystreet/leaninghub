@@ -11,7 +11,9 @@ section_id: blog
 </h1>
 </div>
 <div class='post'>
+  {% if page.image == "" or page.image == nil %}
   <img src="{{ page.image }}" alt="{{ page.alt }}">
+  {% endif %}
   <div class='info'>
     <p>
       By
