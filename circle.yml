@@ -14,7 +14,7 @@ dependencies:
     - "/opt/circleci/.rvm/gems"
 compile:
   override:
-    - bundle exec jekyll b -d $CIRCLE_ARTIFACTS
+    - bundle exec jekyll build -d $CIRCLE_ARTIFACTS
 test:
   post:
     - bundle exec htmlproofer $CIRCLE_ARTIFACTS --allow-hash-href --check-favicon --check-html --disable-external --directory_index_file index.html
