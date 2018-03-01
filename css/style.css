@@ -2525,5 +2525,24 @@ body {
 .postcard {
   background: #efefef;
   max-width: 100%;
-  margin: 100px
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  padding: 30px;
+  /* padding-bottom: 20px; */
+  height: 320px;
+}
+
+.homepage-button{
+  display: block;
+  background: #efefef;
+  padding: 30px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  flex-direction: column;
+}
+.homepage-button:hover {
+  background: #dfdfdf;
 }
