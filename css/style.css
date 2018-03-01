@@ -2529,9 +2529,18 @@ body {
   margin-right: 100px;
   margin-bottom: 30px;
   padding: 30px;
-  /* padding-bottom: 20px; */
+}
+
+.postcard-home {
+  background: #efefef;
+  max-width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  padding: 30px;
   height: 320px;
 }
+
 
 .homepage-button{
   display: block;
