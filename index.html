@@ -85,12 +85,13 @@ menu: site.data.side
 <div class="postcard-home">
   <h2 class="subheader"> Latest Releases</h2>
     <div class="row">
-      {% for post in site.releases reversed limit:3 %}
+      {% assign sorted = site.releases | reverse %}
+      {% for post in sorted limit:3 %}
     		<div class="columns left large-2">
           <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     		</div>
     		<div class="columns left large-10">
-          <span class='month'>{{ post.date | date_to_string }}</span>
+          <strong><span class='month'>{{ post.date | date_to_string }}</span></strong>
           <p>{{ post.description }}</p>
         </div>
       {% endfor %}
