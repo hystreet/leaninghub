@@ -2384,6 +2384,25 @@ body {
   list-style: none;
 }
 
+@media only screen and (max-width: 967px) {
+.blog-snippet {
+  background: #f4f4f4;
+  max-width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  list-style: none;
+}
+.blog-snippet img {
+  max-width: 75%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+}
 .blog-snippet img {
   padding-bottom: 10px;
   padding-top: 10px;
@@ -2524,10 +2543,9 @@ body {
 .postcard {
   background: #efefef;
   max-width: 100%;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 30px;
-  padding: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 3%;
 }
 
 .postcard-home {
