@@ -2535,6 +2535,14 @@ body {
   background: linear-gradient(white 70%, rgba(255,255,255,0));
   z-index: 1;
 }
+.no-breadcrumbs {
+  width: 100%;
+  position: fixed;
+  background: linear-gradient(white 50%, rgba(255,255,255,0));
+  z-index: 1;
+  height: 10px;
+}
+
 
 .numbered-list >li{
   margin-bottom: 20px;
