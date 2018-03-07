@@ -10,9 +10,9 @@ site: <%= ENV['CIRCLE_ARTIFACTS'] %>
 
 # Set some good and long optimization values
 cache_control:
-  "images/*": 'public, max-age=604800, s-max-age=86400'
-  "css/*": 'public, max-age=604800, s-max-age=86400'
-  "*": 'public, max-age=604800, s-max-age=86400'
+  "images/*": 'public, max-age=60, s-max-age=60'
+  "css/*": 'public, max-age=60, s-max-age=60'
+  "*": 'public, max-age=60, s-max-age=60'
 
 gzip:
   - .html
