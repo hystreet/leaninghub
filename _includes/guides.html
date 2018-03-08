@@ -1,11 +1,11 @@
 <ul class="sidebar-nav">
 {% for item in site.data.guides %} {% if item.children %}
 <li class="side-parent" style="list-style: none;">
-  {{ item.name }}
+<p style="margin-bottom: 3px;"><strong>{{ item.name }} </strong></p>
   <ul>
     {% for child in item.children %}
     <li class="side-child" style="list-style: none;">
-      <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
+      <a class="side-child-link" href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
     </li>
     {% endfor %}
   </ul>
