@@ -2426,7 +2426,16 @@ body {
 }
 
 .side-child {
-  margin-bottom: 10px;
+  display: block;
+  margin-bottom: 7px;
+}
+.side-child:hover {
+  background-color:#efefef;
+}
+.side-child-link{
+  display: block;
+  height:100%;
+  width: 100%;
 }
 
 .background-contain {
