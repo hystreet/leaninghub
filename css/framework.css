@@ -5173,7 +5173,7 @@ meta.foundation-mq-topbar {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #e4e4e4 none repeat scroll 0% 0%;
+  background: #0fafd4 none repeat scroll 0% 0%;
 }
 .contain-to-grid .top-bar {
   margin-bottom: 0;
@@ -5207,7 +5207,7 @@ meta.foundation-mq-topbar {
   height: 100px;
   line-height: 100px;
   position: relative;
-  background: #e4e4e4;
+  background: #0fafd4;
   margin-bottom: 0;
 }
 .top-bar ul {
@@ -5330,7 +5330,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a {
   display: block;
   width: 100%;
-  color: #0fafd4;
+  color: #ffffff;
   padding: 12px 0 12px 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1rem;
@@ -5547,7 +5547,7 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 967px) {
   .top-bar {
-    background: #e4e4e4;
+    background: #0fafd4;
     *zoom: 1;
     overflow: visible;
   }
