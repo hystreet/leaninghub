@@ -2508,12 +2508,12 @@ body {
 }
 
 .under-construction-bar {
-  background-color: #ffeed0;
+  background-color: #343d4f;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
   font-weight: bold;
-  color: #C87D00;
+  color: #ffffff;
 }
 .under-construction-bar p {
   margin-bottom: 0;

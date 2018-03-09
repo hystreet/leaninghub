@@ -69,7 +69,8 @@ menu: site.data.side
           <span class='date'>{{ post.date | date: "%d" }}</span>
           <h3 href="{{ post.url }}" style="text-align: left;">{{ post.title }}</h3>
           <p style="margin-bottom: 0">{{ post.description }}</p>
-          <p><a class="readmore" href="{{ post.url }}">Read More</a></p>
+          <br>
+          <p><a class="button" href="{{ post.url }}">Read More</a></p>
         {% endfor %}
       </div>
     </div>
@@ -96,6 +97,7 @@ menu: site.data.side
       {% endfor %}
   </div>
   <div style="margin: 30px; margin-top: 10px;">
-    <a class="readmore" href="/releases">More Releases</a>
+    <br>
+    <a class="button" href="/releases">More Releases</a>
   </div>
 </div>
