@@ -5280,7 +5280,7 @@ meta.foundation-mq-topbar {
   line-height: 33px;
   padding: 0;
   padding-right: 25px;
-  color: #0fabe4;
+  color: #ffffff;
   position: relative;
 }
 .top-bar .toggle-topbar.menu-icon a::after {
@@ -5291,7 +5291,7 @@ meta.foundation-mq-topbar {
   width: 16px;
   top: 0;
   height: 0;
-  box-shadow: 0 10px 0 1px #0fabe4, 0 16px 0 1px #0fabe4, 0 22px 0 1px #0fabe4;
+  box-shadow: 0 10px 0 1px #ffffff, 0 16px 0 1px #ffffff, 0 22px 0 1px #ffffff;
 }
 .top-bar.expanded {
   height: auto;
