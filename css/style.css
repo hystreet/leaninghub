@@ -1,7 +1,10 @@
 .top-bar-logo img{
-  height: 70px;
+  height: 77px;
 }
 
+.footer-logo {
+  height: 70px;
+}
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: white;
 }
@@ -253,7 +256,7 @@ h1, h2, h3, h4 {
 }
 
 .special-title p {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
   color: #666666;
   /* max-width: 75%; */
@@ -261,21 +264,21 @@ h1, h2, h3, h4 {
 }
 
 .special-title-full {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
   color: #666666;
   padding-bottom: 12px;
 }
 
 .special-title ul {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
   color: #666666;
   max-width: 75%;
 }
 
 .contact-text {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
   color: #666666;
   max-width: 75%;
@@ -398,7 +401,7 @@ p.shortline {
 
 .call-to-action p {
   font-size: 1.375rem;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 0;
 }
 
@@ -416,7 +419,7 @@ p.shortline {
 
 .milestone strong {
   font-size: 72px;
-  font-family: "PT sans";
+  font-family: "Roboto", sans-serif;
   display: block;
 }
 
@@ -433,7 +436,7 @@ p.shortline {
 }
 
 .bars h4 {
-  font-family: "droid serif", georgia;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   font-weight: normal;
   text-transform: capitalize;
@@ -464,7 +467,7 @@ p.shortline {
 }
 
 .member p.position {
-  font-family: "droid serif", georgia;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   font-size: 14px;
   color: #666666;
@@ -530,7 +533,7 @@ p.shortline {
 p.quote {
   border: 1px solid rgba(255, 255, 255, 0.4);
   padding: 20px 50px;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   font-size: 18px;
   margin-bottom: 30px;
@@ -586,7 +589,7 @@ textarea {
 
 #comments-form label {
   font-size: 1rem;
-  font-family: "PT sans";
+  font-family: "Roboto", sans-serif;
   margin-bottom: 5px;
 }
 
@@ -722,7 +725,7 @@ ul.gallery li a h3 {
 
 ul.gallery li a p {
   color: #dddddd;
-  font-family: "droid serif", georgia;
+  font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
   font-style: italic;
 }
@@ -973,7 +976,7 @@ body {
 }
 
 .p-whys {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
   color: #666666;
   letter-spacing: 1.3px;
@@ -1465,7 +1468,7 @@ body {
 
 .call-to-action p {
   font-size: 1.375rem;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 0;
 }
 
@@ -1481,7 +1484,7 @@ body {
 
 .milestone strong {
   font-size: 72px;
-  font-family: "PT sans";
+  font-family: "Roboto", sans-serif;
   display: block;
 }
 
@@ -1496,7 +1499,7 @@ body {
 }
 
 .bars h4 {
-  font-family: "droid serif", georgia;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   font-weight: normal;
   text-transform: capitalize;
@@ -1525,7 +1528,7 @@ body {
 }
 
 .member p.position {
-  font-family: "droid serif", georgia;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   font-size: 14px;
   color: #666666;
@@ -1587,7 +1590,7 @@ body {
 p.quote {
   border: 1px solid rgba(255, 255, 255, 0.4);
   padding: 20px 50px;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   font-size: 18px;
   margin-bottom: 30px;
@@ -1641,7 +1644,7 @@ textarea {
 
 #comments-form label {
   font-size: 1rem;
-  font-family: "PT sans";
+  font-family: "Roboto", sans-serif;
   margin-bottom: 5px;
 }
 
@@ -1769,7 +1772,7 @@ ul.gallery li a h3 {
 
 ul.gallery li a p {
   color: #dddddd;
-  font-family: "droid serif", georgia;
+  font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
   font-style: italic;
 }
@@ -2027,7 +2030,7 @@ body {
 }
 
 .p-whys {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
   color: #666666;
   letter-spacing: 1.3px;
