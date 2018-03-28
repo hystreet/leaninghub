@@ -1,11 +1,11 @@
 - name: Recently updated
   section_id: What's new
   children:
+    - name: Contact Support
+      path: support/
     - name: Onboarding Checklist
       path: checklist/
     - name: Setting Up Your Portals
       path: guides/portal-setup/
     - name: Frequently Asked Questions
       path: faqs/
-    - name: Setting up stripe
-      path: guides/setting-up-stripe/
