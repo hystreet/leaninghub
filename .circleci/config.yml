@@ -30,7 +30,7 @@ jobs:
           name: install dependencies
           command: |
             bundle install --jobs=4 --retry=3 --path vendor/bundle
-            
+
       - save_cache:
           paths:
             - ./vendor/bundle
@@ -46,9 +46,9 @@ jobs:
           command: |
             mkdir /tmp/test-results
             TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)"
-            
+
             bundle exec jekyll build --verbose
-            
+
       # run html-proofer
       - run:
           name: run html-proofer
@@ -86,7 +86,7 @@ jobs:
                 name: install dependencies
                 command: |
                   bundle install --jobs=4 --retry=3 --path vendor/bundle
-                  
+
             - save_cache:
                 paths:
                   - ./vendor/bundle
@@ -97,9 +97,9 @@ jobs:
                 command: |
                   mkdir /tmp/test-results
                   TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)"
-                  
+
                   bundle exec jekyll build --verbose
-                  
+
             #-------------------------------------------------
             # Install AWS cli
             - run:
