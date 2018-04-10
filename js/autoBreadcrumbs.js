@@ -27,6 +27,7 @@ function breadcrumbs() {
       output += "../";
     }
     output += bits[i] + "/\">" + bits[i] + "</a> » ";
+    output = output.replace(/_/g, ' ');
   }
   document.write(output);
   document.write("</div>");

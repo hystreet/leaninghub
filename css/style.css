@@ -2620,4 +2620,20 @@ body {
 
 .homepage-button:hover {
   background: #dfdfdf;
+
+}
+
+.article-index-background {
+  background: #efefef;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  padding: 40px;
+  display: inline-block;
+}
+.article-list {
+  margin-left: 16px;
+  list-style-position: outside;
+  list-style-image: inherit;
+  list-style-type: circle;
+  color: #343d4f
 }
