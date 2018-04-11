@@ -32,7 +32,7 @@
     - name: How buyers or sellers can amend appointments
       path: /guides/appointments/How_buyers_or_sellers_can_amend_appointments
     - name: How buyers or sellers can cancel appointments
-      path: /guides/appointments/How_buyers_or_sellers_can-cancel_appointments
+      path: /guides/appointments/How_buyers_or_sellers_can_cancel_appointments
 - name: Managing viewings
   section_id: manage-viewings
   children:
