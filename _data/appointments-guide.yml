@@ -1,0 +1,51 @@
+- name: setting availability
+  section_id: setting-availability
+  children:
+    - name: How to set an agent's availability
+      path: /guides/appointments/How_to_set_an_agent's_availability
+    - name: How to set a seller's availability
+      path: /guides/appointments/How_to_set_a_seller's_availability
+    - name: Setting a seller's availability from the consumer site
+      path: /guides/appointments/setting_a_seller's_availability_from_the_consumer_site
+- name: From the staff side
+  section_id: staff-site
+  children:
+    - name: How to book a valuation
+      path: /guides/appointments/How_to_book_a_valuation
+    - name: How to book a launch
+      path: /guides/appointments/How_to_book_a_launch
+    - name: How to book a viewing
+      path: /guides/appointments/How_to_book_a_viewing
+    - name: How to amend an appointment
+      path: /guides/appointments/How_to_amend_an_appointment
+    - name: How to cancel an appointment
+      path: /guides/appointments/How_to_cancel_an_appointment
+- name: From the consumer site
+  section_id: consumer-site
+  children:
+    - name: How sellers book a valuation
+      path: /guides/appointments/How_sellers_book_a_valuation
+    - name: How sellers book a launch
+      path: /guides/appointments/How_sellers_book_a_launch
+    - name: How buyers book viewings
+      path: /guides/appointments/How_buyers_book_viewings
+    - name: How buyers or sellers can amend appointments
+      path: /guides/appointments/How_buyers_or_sellers_can_amend_appointments
+    - name: How buyers or sellers can cancel appointments
+      path: /guides/appointments/How_buyers_or_sellers_can_cancel_appointments
+- name: Managing viewings
+  section_id: manage-viewings
+  children:
+    - name: Using the 'viewings by' function
+      path: /guides/appointments/Using_the_'viewings_by'_function
+    - name: Managing viewings by both agent and seller
+      path: /guides/appointments/Managing_viewings_by_both_agent_and_seller
+- name: Types of appointment
+  section_id: appointment-types
+  children:
+    - name: The 'valuation' appointment
+      path: /guides/appointments/The_'valuation'_appointment
+    - name: The 'launch' appointment
+      path: /guides/appointments/The_'launch'_appointment
+    - name: The 'viewing' appointment
+      path: /guides/appointments/The_'viewing'_appointment
