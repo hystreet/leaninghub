@@ -13,17 +13,34 @@ menu: site.data.birds
   <h1>Taking Payment</h1>
   <dl class="accordion" data-accordion>
     <dd class="accordion-navigation">
+      <a href="#panel1"><strong>I'm adding existing listings to the Hystreet platform. Can I skip taking payment?</strong></a>
+      <div id="panel1" class="content active">
+        <p>The easiest way to skip the payment step when getting your properties live is to go to <strong> Admin > branches > view (on your branch).</strong></p>
+        <p>From there, change your Stripe keys to your test keys and run a test payment on the property.
+          This will be treated as a normal payment on the system and will allow you to make the listing live, without incurring a real-world charge.</p>
+        <p><em>TIP: we recommend that you add all of your existing listings in one go, then immediately change your Stripe keys back to your live keys.
+          If you try to take a real-world payment using your Stripe keys, the payment will fail! </em></p>
+      </div>
+    </dd>
+    <dd class="accordion-navigation">
       <a href="#panel1"><strong>Where can I find my Stripe keys?</strong></a>
       <div id="panel1" class="content active">
         <p>To find your stripe keys, you’ll need to visit <a>https://dashboard.stripe.com/</a></P>
-        <p>After logging in, follow the API link in the left hand column.
+        <p>After logging in, follow the API link in the left hand column.</p>
+        <div class="text-center mb-30">
+          <div class="image-caption">
+            <img src="/images/setting-up-stripe/stripe-api-page-nav.png" alt="screenshot of Stripe left hand column">
+            <p class="caption-text">click 'developers' to make the API link appear</p>
+          </div>
+        </div>
+        <p>After logging in, click 'developers' then follow the API link in the left hand column.
           This page will show you yours publishable (public) and secret live keys.
           You’ll need to enter these two keys in the branch settings on your staff to take payments. </p>
         <p>On the right hand side of the stripe API page you will see a toggle to swap between showing your live and test keys.
           Simply click this to show your test keys instead.</p>
         <div class="text-center mb-30">
           <div class="image-caption">
-            <img src="/images/stripe-test-switch.png" alt="screenshot of test key switch">
+            <img src="/images/setting-up-stripe/stripe-test-switch.png" alt="screenshot of test key switch">
             <p class="caption-text">here's what the switch to find your test keys looks like</p>
           </div>
         </div>
@@ -32,3 +49,4 @@ menu: site.data.birds
       </div>
     </dd>
   </dl>
+</div>
