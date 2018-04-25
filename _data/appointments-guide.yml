@@ -12,8 +12,8 @@
   children:
     - name: How to book a valuation
       path: /guides/appointments/How_to_book_a_valuation
-    - name: How to book a launch
-      path: /guides/appointments/How_to_book_a_launch
+    - name: How to book a take on
+      path: /guides/appointments/How_to_book_a_take_on
     - name: How to book a viewing
       path: /guides/appointments/How_to_book_a_viewing
     - name: How to amend an appointment
@@ -25,8 +25,8 @@
   children:
     - name: How sellers book a valuation
       path: /guides/appointments/How_sellers_book_a_valuation
-    - name: How sellers book a launch
-      path: /guides/appointments/How_sellers_book_a_launch
+    - name: How sellers book a take on
+      path: /guides/appointments/How_sellers_book_a_take_on
     - name: How buyers book viewings
       path: /guides/appointments/How_buyers_book_viewings
     - name: How buyers or sellers can amend appointments
@@ -45,7 +45,7 @@
   children:
     - name: The 'valuation' appointment
       path: /guides/appointments/The_'valuation'_appointment
-    - name: The 'launch' appointment
-      path: /guides/appointments/The_'launch'_appointment
+    - name: The 'take on' appointment
+      path: /guides/appointments/The_'take_on'_appointment
     - name: The 'viewing' appointment
       path: /guides/appointments/The_'viewing'_appointment
