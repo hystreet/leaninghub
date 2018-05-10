@@ -10,9 +10,47 @@ menu: site.data.birds
   {% include recently-updated.html %}
   {% include guides.html %}
 <div class="columns right large-9 lh-content">
-  <h1> Sorry! </h1>
-  <p> we don't have a guide for this page just yet but we're always adding new guides and building on the Learning Hub. </p>
-  <p> Don't worry-
-    <a href="/support/">you can still find out what you need to know by asking our support team.</a>
-  </p>
+
+  <h1>Integrating Hystreet With Your Website</h1>
+  <p><em>Hystreet uses three simple points of integration with your website: a 'book a valuation' link, a 'login' link, and 'book a viewing' links for your listed properties.
+    Though we would always recommend you use a reputable wesbite provider that is familiar with the Hystreet platform <a href="https://estateapps.co.uk/">(i.e. Estate Apps)</a> this guide will explain how to set each of these buttons up to direct your clients.
+    Here's what you'll need:</em></p>
+
+  <h2>Book a Valuation</h2>
+  <p>Add a button to your website homepage to direct your leads towards booking a valuation.
+    The button should lead to <strong>`[yourbrand].hystreet.co.uk/book-a-valuation/enter-postcode.`</strong></p>
+  <p>You can add the button anywhere that suits the design of your website, but we recommend that you make it as prominent as possible, and put it near the top your homepage for visibility.</p>
+  <div class="text-center mb-30">
+    <div class="image-caption">
+      <img src="/images/your-website/book-valuation-example.PNG" alt="Screenshot of a 'book a valuation' button">
+      <p class="caption-text">Here's an example of a 'book a valuation' button</p>
+    </div>
+  </div>
+
+  <h2>Login</h2>
+  <p>Add a button to your website for returning clients to log in and manage their sale or purchase.
+    The button should lead to <strong>`[yourbrand].hystreet.co.uk/login.`</strong></p>
+  <p>You can add the button anywhere that suits the design of your website, but we recommend that you put it near the top right corner your homepage to match the layout of your Hystreet consumer site.</p>
+  <div class="text-center mb-30">
+    <div class="image-caption">
+      <img src="/images/your-website/login-example.PNG" alt="Screenshot of a 'login' button">
+      <p class="caption-text">Here's an example of a 'login' button</p>
+    </div>
+  </div>
+
+  <h2>Book a viewing</h2>
+  <p><em>Adding ‘book a viewing’ buttons can be slightly more complicated than the other two points of integration because the button for each property would need to link to it's own listing, but we do have multiple ways of setting them up:</em></p>
+  <p>The simplest way would be to add a button that links to the properties that is displayed on the consumer site.
+    This would just need to be a link to <strong>`[yourbrand].hystreet.co.uk/properties`</strong>.
+    The downside of this method would be that your property list wouldn't have any filtering or ordering functionality beyond being listed in price order.</p>
+  <p>The second option would use our data feed API to pull your listings through to your website, then include a 'book a viewing' button for each one.
+    These URLs should follow the structure <strong>`[yourbrand].hystreet.co.uk/properties/[ID]/request-viewing`</strong>.
+    The IDs for these links can be found in the API response as `listing_id`.</p>
+  <p>If you'd like to use the API, get in touch with our support team who will arrange a data auth key for your tech team or web designers to access the data feed.</p>
+  <p>If your website is powered by your CRM, you'll need to manually copy your listings over to your website, then include generated 'book a viewing' links for each property.
+    The links for these can be found in the staff site by going to <strong>properties > view > listing</strong> and will follow the structure <strong>`[yourbrand].hystreet.co.uk/properties/[ID]]/request-viewing`</strong>.</p>
+
+  <h2>Anything Else?</h2>
+  <p> In terms of intergrating Hystreet with your website, the points described above are all you need!
+     We do also recommend that you add a 'sell online' marketing page so that your clients can compare selling online with a more traditional service.</p>
 </div>
