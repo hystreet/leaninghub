@@ -2648,3 +2648,23 @@ body {
   list-style-type: circle;
   color: #343d4f
 }
+
+code {
+  font-family: monospace;
+  color: #343D4F;
+  font-size: 16px;
+  background-color: #efefef;
+  border: 1px solid #bbbbbb;
+}
+
+pre {
+  display: block;
+  padding: 10px;
+  border: 1px solid #bbbbbb;
+  background-color: #efefef;
+}
+
+pre code {
+  border: none;
+
+}
