@@ -75,7 +75,7 @@ menu: site.data.side
       </div>
     </div>
     <div class="columns large-6 right">
-      {% for post in site.posts %}
+      {% for post in site.posts limit:1 %}
         <img class="newsimage-home" src="{{ post.image }}" alt="{{ post.alt}}">
       {% endfor %}
     </div>
