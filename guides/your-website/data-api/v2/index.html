@@ -1,0 +1,218 @@
+---
+layout: default
+title: Guides | Learning Hub
+description: A software platform that any agent can use to offer the advantages of an online/hybrid service with the benefits of a highly experienced local agent.
+section_id: home
+menu: site.data.birds
+---
+
+<div class="columns left large-3 lh-left-nav">
+  {% include recently-updated.html %}
+  {% include guides.html %}
+<div class="columns right large-9 lh-content">
+  <h1>Data feed API v2</h1>
+
+  <p>The Hystreet data API is a way for 3rd party website developers to access the data within our system in their apps.
+    The most common use of the API is to provide a listing of live properties on a marketing site.</p>
+
+  <h2>Getting started</h2>
+
+  <h3>Authentication</h3>
+
+  <p>In order to use our API you will need an authentication token. This can be obtained by speaking to our support team.
+    Tokens need to be passed in as an <code>Authorization</code> request header, with the value as <code>Bearer &lt;authtoken&gt;</code></p>
+  <p><Strong>For example:</strong></p>
+  <p><code>curl -H &quot;Authorization: Bearer abc123&quot; https://demo.hystreet.co.uk/data-feed/v2/properties</code></p>
+  <h3>Endpoints</h3>
+  <p>The API URLs are relative to <code>https://&lt;your hystreet domain&gt;.hystreet.co.uk/data-feed/v2</code></p>
+  <p><strong>For example:</strong></p>
+  <p><code>https://demo.hystreet.co.uk/data-feed/v2/properties</code></p>
+
+  <h3>Output</h3>
+
+  <p>The output is in JSON format and matches the Rightmove RTDF v1.3 SendProperty format.</p>
+  <p>Ref:
+    <a href="https://media.rightmove.co.uk/ps/pdf/guides/adf/Rightmove_Real_Time_Datafeed_Specification.pdf">Rightmove_Real_Time_Datafeed_Specification.pdf</a>
+    <em>[external link]</em>
+  </p>
+
+  <h2>Properties</h2>
+
+  <p><code>/properties</code> returns a list of your published properties.</p>
+  <p><strong>Request example:</strong></p>
+  <p><code>curl -H &quot;Authorization: Bearer abc123&quot; https://demo.hystreet.co.uk/data-feed/v2/properties</code></p>
+  <p><strong>Response example:</strong></p>
+    <pre><code class="language-javascript">
+{
+  "total": 1,
+  "limit": 25,
+  "skip": 0,
+  "data": [
+    {
+      "agent_ref": "abc123",
+      "published": true,
+      "property_type": 4,
+      "status": 1,
+      "new_home": false,
+      "student_property": false,
+      "address": {
+        "house_name_number": "0 Original Avenue",
+        "town": "Nowhereton",
+        "postcode_1": "AB1",
+        "postcode_2": "2CD",
+        "display_address": "Holt Fleet Road, Nowhereshire"
+      },
+      "price_information": {
+        "price": 250500
+      },
+      "details": {
+        "summary": "A wonderful family home within the heart a village",
+        "description": "A wonderful family home within the heart a village",
+        "features": [
+          "2 reception rooms",
+          "Downstairs shower room",
+          "Low maintenance rear garden"
+        ],
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "reception_rooms": 0,
+        "rooms": [
+          {
+            "room_name": "Master bedroom",
+            "room_dimension_text": "3m x 5m",
+            "room_description": "Main bedroom, with private balcony"
+          },
+          {
+            "room_name": "Bedroom 2",
+            "room_dimension_text": "2m x 3m",
+            "room_description": "Second bedroom"
+          },
+          {
+            "room_name": "Bathroom",
+            "room_dimension_text": "3m x 2m",
+            "room_description":
+              "a spacious, modern family bathroom with bath and shower"
+          },
+          {
+            "room_name": "Lounge",
+            "room_dimension_text": "4m x 6m",
+            "room_description": "Main reception area"
+          },
+          {
+            "room_name": "Dining Room",
+            "room_dimension_text": "4m x 6m",
+            "room_description": "Large dining room"
+          },
+          {
+            "room_name": "Detached Double Garage"
+          }
+        ]
+      },
+      "media": [
+        {
+          "caption": "Front of Property",
+          "media_type": 1,
+          "media_url": "demo.hystreet.co.uk/property-images/ab120/1500x1500.jpg"
+        },
+        {
+          "caption": "Lounge",
+          "media_type": 1,
+          "media_url": "demo.hystreet.co.uk/property-images/ab121/1500x1500.jpg"
+        },
+        {
+          "caption": "EPC",
+          "media_type": 7,
+          "media_url": "demo.hystreet.co.uk/property-images/ab122/1500x1500.jpg"
+        },
+        {
+          "caption": "Ground Floor",
+          "media_type": 2,
+          "media_url":
+            "demo.hystreet.co.uk/property-images/floorplan/ab123/1500x1500.jpg"
+        },
+        {
+          "caption": "First Floor",
+          "media_type": 2,
+          "media_url":
+            "demo.hystreet.co.uk/property-images/floorplan/ab12f4/1500x1500.jpg"
+        }
+      ]
+    }
+  ]
+}
+    </code></pre>
+  <p><br>
+    Most data is populated as the client or the agent completes the property listing process.</p>
+  <p>Images are found in the <code>media</code> section.</p>
+  <p>Of the resulting values, there are some which are predefined. they are described in the following table:</p>
+  <p>We currently provide a subset of RTDF types. Any others added will be in line with the RTDF format.</p>
+  <table class="table table-striped table-bordered full-width">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Values</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>property_type</td>
+        <td>
+<pre>
+1: terraced_house,
+3: semi_detached_house,
+4: detached_house,
+8: flat,
+9: studio_apartment,
+10: ground_floor_maisonette,
+11: first_floor_maisonette,
+12: bungalow,
+13: terraced_bungalow,
+14: semi_detached_bungalow,
+15: detached_bungalow,
+21: link_detached_house,
+23: cottage,
+43: barn_conversion
+</pre>
+        </td>
+      </tr>
+      <tr>
+        <td>sale_status</td>
+        <td>
+<pre>
+1: available,
+2: sold_subject_to_contract,
+4: under_offer,
+5: reserved,
+6: let_agreed
+</pre>
+        </td>
+      </tr>
+      <tr>
+        <td>price_qualifier</td>
+        <td>
+<pre>
+0: none
+1: price_on_application
+2: guide_price
+3: fixed_price
+4: offers_in_excess_of
+5: offers_in_region_of
+7: from
+9: shared_ownership
+10: offers_over
+</pre>
+        </td>
+      </tr>
+      <tr>
+        <td>media_type</td>
+        <td>
+<pre>
+1: photo,
+2: floorplan,
+7: epc
+</pre>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
