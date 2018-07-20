@@ -1,0 +1,20 @@
+- name: Portal Setup
+  section_id: setup
+  children:
+    - name: Connecting your Hystreet platform to the Portals
+      path: /guides/portal-setup/setting_up_your_portals
+    - name: Portal profiles
+      path: /guides/portal-setup/portal_profiles
+    - name: Template Emails for your Account Managers
+      path: /guides/portal-setup/template_emails
+    - name: Portal setup models
+      path: /guides/portal-setup/portal_setup_models
+- name: Pricing
+  section_id: pricing
+  children:
+    - name: Rightmove's Pricing Structure
+      path: /guides/portal-setup/rightmove_pricing
+    - name: Zoopla's Pricing Structure
+      path: /guides/portal-setup/zoopla_pricing
+    - name: On The Market's Pricing Structure
+      path: /guides/portal-setup/on_the_market_pricing
