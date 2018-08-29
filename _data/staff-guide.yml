@@ -1,0 +1,64 @@
+- name: The Basics
+  section_id: basics
+  children:
+    - name: Accessing the staff site
+      path: /guides/staff-site/accessing_the_staff_site
+    - name: Navigating around the staff site
+      path: /guides/staff-site/navigating_around_the_staff_site
+    - name: Using the staff site from different devices
+      path: /guides/staff-site/using_the_staff_site_from_different_devices
+    - name: Changing your login details
+      path: /guides/staff-site/changing_your_login_details
+- name: Adding a Property
+  section_id: adding a property
+  children:
+    - name: Registering a new property
+      path: /guides/staff-site/registering_a_new_property
+    - name: Adding a seller
+      path: /guides/staff-site/adding_a_seller
+    - name: updating a sellers's contact preferences
+      path: /guides/staff-site/updating_a_sellers_contact_preferences
+    - name: Collecting pre-valuation details
+      path: /guides/staff-site/collecting_pre-valuation_details
+    - name: Sending a valuation report
+      path: /guides/staff-site/sending_a_valuation_report
+    - name: Taking instruction and payment
+      path: /guides/staff-site/taking_instruction_and_payment
+    - name: The manage section
+      path: /guides/staff-site/the_manage_section
+- name: Building a Listing
+  section_id: building a listing
+  children:
+    - name: Writing a property description
+      path: /guides/staff-site/writing_a_property_description
+    - name: Adding rooms to a listing
+      path: /guides/staff-site/adding_rooms_to_a_listing
+    - name: Adding photos to a listing
+      path: /guides/staff-site/adding_photos_to_a_listing
+    - name: Adding floorplans to a listing
+      path: /guides/staff-site/adding_floorplans_to_a_listing
+    - name: Sending a listing to a seller for approval
+      path: /guides/staff-site/sending_a_listing_to_a_seller_for_approval
+- name: Compliance
+  section_id: compliance
+  children:
+    - name: Completing a property factfind
+      path: /guides/staff-site/completing_a_property_factfind
+    - name: Completing an ID check
+      path: /guides/staff-site/completing_an_ID_check
+    - name: Uploading an EPC
+      path: /guides/staff-site/uploading_an_EPC
+- name: Offers
+  section_id: offers
+  children:
+    - name: Submitting an offer on behalf of a buyer
+      path: /guides/staff-site/submitting_an_offer_on_behalf_of_a_buyer
+    - name: Responding to an offer on behalf of a seller
+      path: /guides/staff-site/responding_to_an_offer_on_behalf_of_a_seller
+- name: The buyers list
+  section_id: buyers
+  children:
+    - name: Adding a buyer
+      path: /guides/staff-site/adding_a_buyer
+    - name: updating a buyer's contact preferences
+      path: /guides/staff-site/updating_a_buyers_contact_preferences
