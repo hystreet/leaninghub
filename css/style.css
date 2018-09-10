@@ -2564,6 +2564,7 @@ code {
   font-size: 16px;
   background-color: #efefef;
   border: 1px solid #bbbbbb;
+  line-height: 1.3em;
 }
 pre {
   display: block;

@@ -13,14 +13,16 @@ menu: site.data.birds
 <div class="columns right large-9 lh-content">
   <h1>Data feed API v2</h1>
 
-  <p>The Hystreet data API is a way for 3rd party website developers to access the data within our system in their apps.
+  <p>The Hystreet data API is a way for 3rd party website developers to access the data within our system in their
+    apps.
     The most common use of the API is to provide a listing of live properties on a marketing site.</p>
 
   <h2>Getting started</h2>
 
   <h3>Authentication</h3>
 
-  <p>In order to use our API you will need an authentication token. This can be obtained by speaking to our support team.
+  <p>In order to use our API you will need an authentication token. This can be obtained by speaking to our support
+    team.
     Tokens need to be passed in as an <code>Authorization</code> request header, with the value as <code>Bearer &lt;authtoken&gt;</code></p>
   <p><Strong>For example:</strong></p>
   <p><code>curl -H &quot;Authorization: Bearer abc123&quot; https://demo.hystreet.co.uk/data-feed/v2/properties</code></p>
@@ -43,14 +45,15 @@ menu: site.data.birds
   <p><strong>Request example:</strong></p>
   <p><code>curl -H &quot;Authorization: Bearer abc123&quot; https://demo.hystreet.co.uk/data-feed/v2/properties</code></p>
   <p><strong>Response example:</strong></p>
-    <pre><code class="language-javascript">
-{
+  <pre><code class="language-javascript">{
   "total": 1,
   "limit": 25,
   "skip": 0,
   "data": [
     {
       "agent_ref": "abc123",
+      "branch_id": "xyc456",
+      "book_a_viewing": "https://demo.hystreet.co.uk/properties/a1b2c3/request-viewing"
       "published": true,
       "property_type": 4,
       "status": 1,
@@ -158,7 +161,7 @@ menu: site.data.birds
       <tr>
         <td>property_type</td>
         <td>
-<pre>
+          <pre>
 1: terraced_house,
 3: semi_detached_house,
 4: detached_house,
@@ -179,7 +182,7 @@ menu: site.data.birds
       <tr>
         <td>sale_status</td>
         <td>
-<pre>
+          <pre>
 1: available,
 2: sold_subject_to_contract,
 4: under_offer,
@@ -191,7 +194,7 @@ menu: site.data.birds
       <tr>
         <td>price_qualifier</td>
         <td>
-<pre>
+          <pre>
 0: none
 1: price_on_application
 2: guide_price
@@ -207,7 +210,7 @@ menu: site.data.birds
       <tr>
         <td>media_type</td>
         <td>
-<pre>
+          <pre>
 1: photo,
 2: floorplan,
 7: epc
