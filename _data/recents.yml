@@ -1,11 +1,11 @@
 - name: Recently updated
   section_id: What's new
   children:
+    - name: The Staff Site Guide
+      path: guides/staff-site
+    - name: The Portals Guide
+      path: guides/portal-setup
     - name: Setting up Stripe
       path: guides/setting-up-stripe
     - name: The Appointments Guide
       path: guides/appointments
-    - name: Contact Support
-      path: support/
-    - name: Onboarding Checklist
-      path: checklist/

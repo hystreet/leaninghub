@@ -1,0 +1,12 @@
+<h3 class="subheader" style="text-align: left;"><strong>Building a listing</strong></h3>
+{% for item in site.data.staff-guide %}
+  {% if item.section_id == "building a listing" %}
+    <ul>
+      {% for child in item.children %}
+        <li class="article-list">
+          <a class="side-child-link" href="{{ child.path }}">{{ child.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
