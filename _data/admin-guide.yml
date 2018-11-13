@@ -1,0 +1,56 @@
+- name: Settings
+  section_id: settings
+  children:
+    - name: Accessing the settings page
+      path: /guides/getting-started-with-hystreet/settings_page
+    - name: Updating your branding
+      path: /guides/getting-started-with-hystreet/updating_your_branding
+    - name: What are favicons?
+      path: /guides/getting-started-with-hystreet/what_are_favicons
+    - name: Using intercom
+      path: /guides/getting-started-with-hystreet/using_intercom
+    - name: Setting a default area map
+      path: /guides/getting-started-with-hystreet/setting_a_default_area_map
+    - name: Adding service features
+      path: /guides/getting-started-with-hystreet/adding_service_features
+    - name: Terms and conditions
+      path: /guides/getting-started-with-hystreet/terms_and_conditions
+- name: Branches
+  section_id: branches
+  children:
+    - name: Accessing the branches page
+      path: /guides/getting-started-with-hystreet/branches_page
+    - name: Branch information
+      path: /guides/getting-started-with-hystreet/branch_information
+    - name: Setting your service fees
+      path: /guides/getting-started-with-hystreet/setting_your_service_fees
+    - name: Setting up your portals
+      path: /guides/getting-started-with-hystreet/setting_up_your_portals
+    - name: Using Stripe
+      path: /guides/getting-started-with-hystreet/using_stripe
+- name: Agents
+  section_id: agents
+  children:
+    - name: Accessing the agents page
+      path: /guides/getting-started-with-hystreet/agents_page
+    - name: Adding a new agent
+      path: /guides/getting-started-with-hystreet/adding_a_new_agent
+    - name: Marking agents as active or inactive
+      path: /guides/getting-started-with-hystreet/marking_agents_as_active_or_inactive
+    - name: Adding postcode districts
+      path: /guides/getting-started-with-hystreet/adding_postcode_districts
+    - name: Setting availability
+      path: /guides/getting-started-with-hystreet/setting_availability
+- name: Staff
+  section_id: staff
+  children:
+    - name: Accessing the staff page
+      path: /guides/getting-started-with-hystreet/staff_page
+    - name: Adding a new staff account
+      path: /guides/getting-started-with-hystreet/adding_a_new_staff_account
+    - name: Changing your password
+      path: /guides/getting-started-with-hystreet/changing_your_password
+    - name: What are User roles?
+      path: /guides/getting-started-with-hystreet/what_are_user_roles
+    - name: The Hystreet support account
+      path: /guides/getting-started-with-hystreet/the_hystreet_support_account

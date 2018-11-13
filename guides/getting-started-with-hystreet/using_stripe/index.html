@@ -1,0 +1,33 @@
+---
+layout: default
+title: Guides | Learning Hub
+description: A software platform that any agent can use to offer the advantages of an online/hybrid service with the benefits of a highly experienced local agent.
+section_id: home
+menu: site.data.birds
+---
+
+<div class="columns left large-3 lh-left-nav">
+  {% include recently-updated.html %}
+  {% include guides.html %}
+</div>
+<div class="columns right large-9 lh-content">
+  <h1>Stripe Information</h1>
+  <em><p>We've got quite a lot to tell you about Stripe - as such, we've put together a whole guide on the topic of Stripe.
+    you can find our <a href="/guides/setting-up-stripe"> Stripe Guide here.</a></p></em>
+  <p>We use Stripe.com for processing your payments, as one of the largest online payment providers in the world they are both reliable and competitively priced.
+    When you sign up for your Stripe account you’ll be provided with both a set of test keys and a set of live keys.
+    Think of these keys like a deposit box that allows the system to process those payments on your behalf.</p>
+  <p>You'll see two fields in the branch settings page to enter your secret and publishable keys (usually of the format sk_xxxx_xxxx and pk_xxxx_xxxx, respectively).<p>
+    <div class="text-center mb-30">
+      <div class="image-caption">
+        <img src="/images/admin/stripe-key-fields.png" alt="Screenshot of the Stripe key fields">
+        <p class="caption-text">Access the admin pages using these buttons.</p>
+      </div>
+    </div>
+  <strong>Test Keys</strong> <br>
+  <p>If you enter your test keys here (usually of the format sk_test_xxxx and pk_test_xxxx) you’ll be able to see how the system handles different responses for you using the test card numbers.
+    For just running through some test customers and doing training, the card number you are looking for is <strong>4242 4242 4242 4242</strong>.
+    With that card you can use any 3 digit CVC and any expiry date that is in the future.</p>
+  <strong>Live Keys</strong> <br>
+  <p>If you enter your live keys here (usually of the format sk_live_xxxx and pk_test_xxxx) you’ll be all set to start taking real world payments from customers!</p>
+</div>
