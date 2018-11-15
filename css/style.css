@@ -1669,7 +1669,7 @@ textarea {
   margin-bottom: 5px;
 }
 .footer {
-  background: #232323;
+  background: #343d4f;
   padding: 40px 0 20px;
 }
 .footer h1 {
@@ -2499,6 +2499,9 @@ body {
   height: auto;
   box-shadow: 0px 2px 6px #00000040;
 }
+.postcard-home > h2{
+  text-align: center;
+}
 .newsimage-home {
   padding-right: 30px;
 }
@@ -2585,4 +2588,35 @@ pre code {
 }
 .full-width {
   width: 100%;
+}
+
+.search-box{
+  position: absolute;
+  top: 50%;
+  left: 50%
+  transform: translate(-50%, -50%);
+  background: red;
+  height: 80px;
+  border-radius: 40px;
+  padding: 20px;
+}
+.search-box:hover > .search-text{
+  width: 480px;
+  padding: 0 12px;
+}
+.search-box:hover > .search-btn{
+  background: white;
+}
+.search-btn{
+  color: green;
+  float: right;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  Background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+
 }
