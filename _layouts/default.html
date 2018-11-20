@@ -1,44 +1,33 @@
 <!DOCTYPE html>
 <html class='no-js' lang='en'>
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>{{ page.title }}</title>
-      <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-      {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-      <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
-      <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
-      <link href='{{ site.url }}/css/framework.css' rel='stylesheet'>
-      <link href='{{ site.url }}/css/syntax.css' rel='stylesheet'>
-      <link href='{{ site.url }}/css/style.css' rel='stylesheet'>
-      <link href='{{ site.url }}/css/fontello.css' rel='stylesheet'>
-      <script src='{{ site.url }}/js/modernizr.js'></script>
-    <!-- Facebook Pixel Code -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+    <link href='{{ site.url }}/css/framework.css' rel='stylesheet'>
+    <link href='{{ site.url }}/css/syntax.css' rel='stylesheet'>
+    <link href='{{ site.url }}/css/style.css' rel='stylesheet'>
+    <link href='{{ site.url }}/css/fontello.css' rel='stylesheet'>
+    <script src='{{ site.url }}/js/modernizr.js'></script>
+    <script type="text/javascript" src="{{site.url}}/js/autoBreadcrumbs.js"></script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-97210621-5"></script>
 <script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '215650522204897');
-fbq('track', 'PageView');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-97210621-5');
 </script>
-<noscript><img data-proofer-ignore height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=215650522204897&ev=PageView&noscript=1"
-/></noscript>
-<!-- DO NOT MODIFY -->
-<!-- End Facebook Pixel Code -->
-<script type="text/javascript" src="{{site.url}}/js/autoBreadcrumbs.js"></script>
-{% if page.tipue_search_active or layout.tipue_search_active %}
-<link rel="stylesheet" href="{{ " /assets/tipuesearch/css/normalize.css " | relative_url }}">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="{{ " /assets/tipuesearch/tipuesearch_content.js " | relative_url }}"></script>
-<link rel="stylesheet" href="{{ " /assets/tipuesearch/css/tipuesearch.css " | relative_url }}">
-<script src="{{ " /assets/tipuesearch/tipuesearch_set.js " | relative_url }}"></script>
-<script src="{{ " /assets/tipuesearch/tipuesearch.min.js " | relative_url }}"></script>
-<link rel="stylesheet" href="/assets/tipuesearch/css/tipuesearch.css">
-{% endif %}
-    </head>
+      <!-- End Google Analytics -->
+  </head>
+
+
+
     <body data-sticky-container>
       <div class='contain-to-grid sticky' data-sticky>
         <nav class='top-bar' data-topbar=''>
@@ -151,18 +140,5 @@ src="https://www.facebook.com/tr?id=215650522204897&ev=PageView&noscript=1"
       <script src='{{ site.url }}/js/jquery.countTo.js'></script>
       <script src='{{ site.url }}/js/jquery.appear.js'></script>
       <script src='{{ site.url }}/js/app.js'></script>
-      <!-- Informizely code for site "hystreet.co.uk". Place this code right after the <body> tag on every page of your site. -->
-  <script id="_informizely_script_tag" type="text/javascript">
-    var IzWidget = IzWidget || {};
-    (function (d) {
-      var scriptElement = d.createElement('script');
-      scriptElement.type = 'text/javascript'; scriptElement.async = true;
-      scriptElement.src = "https://insitez.blob.core.windows.net/site/0682edc2-273f-47c2-a637-a6580cfed8cf.js";
-      var node = d.getElementById('_informizely_script_tag');
-      node.parentNode.insertBefore(scriptElement, node);
-    })(document);
-  </script>
-  <noscript><a href="https://www.informizely.com/">Informizely customer feedback surveys</a></noscript>
-  <!-- End Informizely code. -->
     </body>
 </html>
