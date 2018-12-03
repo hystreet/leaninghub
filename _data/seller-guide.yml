@@ -1,0 +1,40 @@
+- name: Securing the Instruction
+  section_id: securing_instruction
+  children:
+    - name: book a Valuation
+      path: /guides/seller/booking_a_valuation
+    - name: Meet your agent
+      path: /guides/seller/meet_your_agent
+    - name: Pre-valuation questions
+      path: /guides/seller/pre-valuation_questions
+    - name: estimated value of a Property
+      path: /guides/seller/estimated_value_of_a_property
+    - name: Appointment time slots
+      path: /guides/seller/appointment_time_slots
+    - name: The valuation report
+      path: /guides/seller/the_valuation_report
+    - name: Instruct and pay
+      path: /guides/seller/instruct_and_pay
+- name: Getting to Market
+  section_id: getting_to_market
+  children:
+    - name: Booking a take on
+      path: /guides/seller/booking_a_take_on
+    - name: The ID check
+      path: /guides/seller/the_ID_check
+    - name: The property fact find
+      path: /guides/seller/the_property_fact_find
+    - name: Listing approval
+      path: /guides/seller/listing_approval
+- name: Viewings
+  section_id: viewings
+  children:
+    - name: Updating seller availability
+      path: /guides/seller/updating_seller_availability
+- name: Feedback and Offers
+  section_id: feedback_and_offers
+  children:
+    - name: Viewing feedback
+      path: /guides/seller/viewing_feedback
+    - name: Receiving and responding to new offers
+      path: /guides/seller/receiving_and_responding_to_new_offers
