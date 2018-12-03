@@ -1,6 +1,8 @@
 - name: Recently updated
   section_id: What's new
   children:
+    - name: Using the Platform As a Seller
+      path: guides/seller
     - name: The Staff Site Guide
       path: guides/staff-site
     - name: The Portals Guide
