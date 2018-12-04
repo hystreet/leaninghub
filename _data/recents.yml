@@ -1,6 +1,8 @@
 - name: Recently updated
   section_id: What's new
   children:
+    - name: Sending booking links to clients
+      path: guides/staff-site/sending_booking_links_to_clients
     - name: Using the Platform As a Seller
       path: guides/seller
     - name: The Staff Site Guide
@@ -9,5 +11,3 @@
       path: guides/portal-setup
     - name: Setting up Stripe
       path: guides/setting-up-stripe
-    - name: The Appointments Guide
-      path: guides/appointments
