@@ -52,7 +52,7 @@ jobs:
       # run html-proofer
       - run:
           name: run html-proofer
-          command: bundle exec htmlproofer ./_site --allow-hash-href --check-favicon --check-html --disable-external --directory_index_file index.html
+          command: bundle exec htmlproofer ./_site --allow-hash-href --check-favicon --check-html --disable-external --directory_index_file index.html --assume-extension ./_site
           # command: echo "Go Wildcats!"
 
       # collect reports
