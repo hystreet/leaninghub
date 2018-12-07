@@ -17,3 +17,6 @@ exclude:
   - circle.yml
   - doc
 permalink: /:categories/:title
+algolia:
+  application_id: 'LPNH3TV6VR'
+  index_name: 'learninghub'
