@@ -67,10 +67,10 @@ menu: site.data.side
         {% for post in site.posts limit:1 %}
           <span class='month'>{{ post.date | date: "%h" }}</span>
           <span class='date'>{{ post.date | date: "%d" }}</span>
-          <h3 href="{{ post.url }}" style="text-align: left;" data-proofer-ignore>{{ post.title }}</h3>
+          <h3 href="{{ post.url }}" style="text-align: left;">{{ post.title }}</h3>
           <p style="margin-bottom: 0">{{ post.description }}</p>
           <br>
-          <p><a class="button" href="{{ post.url }}">Read More</a></p>
+          <p><a class="button" href="{{ post.url }}" data-proofer-ignore>Read More</a></p>
         {% endfor %}
       </div>
     </div>
