@@ -1,0 +1,23 @@
+- name: Booking a viewing
+  section_id: booking-viewing
+  children:
+    - name: Overview of a listing
+      path: /guides/buyer/overview_of_a_listing
+    - name: Booking a viewing
+      path: /guides/buyer/booking_a_viewing
+    - name: Amending or cancelling a viewing
+      path: /guides/buyer/amending_or_cancelling_a_viewing
+    - name: Upcoming viewing reminders
+      path: /guides/buyer/upcoming_viewing_reminder
+- name: After the viewing
+  section_id: after-viewing
+  children:
+    - name: The feedback chase
+      path: /guides/buyer/feedback_chase
+    - name: Submitting an offer
+      path: /guides/buyer/submitting_an_offer
+- name: Offer negotiation
+  section_id: offer-negotiation
+  children:
+    - name: Viewing responses to offers
+      path: /guides/buyer/viewing_responses_to_offers
