@@ -17,6 +17,24 @@ exclude:
   - circle.yml
   - doc
 permalink: /:categories/:title
+
 algolia:
-  application_id: 'LPNH3TV6VR'
-  index_name: 'learninghub'
+  application_id: 6WV9RIWWJC
+  index_name:     learninghub # You can replace that with whatever name you want
+  search_only_api_key: 7469e947549e8ead11d77acaf8d2cdc3
+  files_to_exclude:
+    - _releases/*
+    - _posts/*
+    - coming-soon/*
+    - index.html
+    - guides/index.html
+    - guides/appointments/index.html
+    - guides/buyer/index.html
+    - guides/getting-started-with-hystreet/index.html
+    - guides/models/index.html
+    - guides/portal-setup/index.html
+    - guides/seller/index.html
+    - guides/setting-up-stripe/index.html
+    - guides/staff-site/index.html
+    - guides/your-website/index.html
+    - faqs/index.html

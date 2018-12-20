@@ -1,6 +1,8 @@
-- name: Recently updated
+- name: Recently Updated
   section_id: What's new
   children:
+    - name: Learning Hub Article Search
+      path: search/
     - name: Sending booking links to clients
       path: guides/staff-site/sending_booking_links_to_clients
     - name: Using the Platform As a Seller

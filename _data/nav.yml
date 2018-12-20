@@ -16,3 +16,6 @@
 - name: Support
   path: support/
   section_id: support
+- name: Search
+  path: search/
+  section_id: search
