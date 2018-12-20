@@ -40,12 +40,3 @@
       path: /guides/appointments/Using_the_'viewings_by'_function
     - name: Managing viewings by both agent and seller
       path: /guides/appointments/Managing_viewings_by_both_agent_and_seller
-- name: Types of appointment
-  section_id: appointment-types
-  children:
-    - name: The 'valuation' appointment
-      path: /guides/appointments/The_'valuation'_appointment
-    - name: The 'take on' appointment
-      path: /guides/appointments/The_'take_on'_appointment
-    - name: The 'viewing' appointment
-      path: /guides/appointments/The_'viewing'_appointment

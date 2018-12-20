@@ -1,20 +1,136 @@
 ---
-layout: default
-title: Guides | Learning Hub
+layout: default-nobreadcrumbs
+title: Guides | Learning Hub | Hystreet
 description: A software platform that any agent can use to offer the advantages of an online/hybrid service with the benefits of a highly experienced local agent.
 section_id: home
 menu: site.data.birds
 ---
+<style>
+  .ais-SearchBox-form {
+    background: #ffffff;
+    max-width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    box-shadow: 0px 2px 6px #00000040;
+    display: block;
+    top: 50%;
+    left: 50%
+    transform: translate(-50%, -50%);
+    height: 80p;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+  }
+
+  .ais-SearchBox-input {
+    display: inline;
+    font-style: italic;
+    border: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px:
+    max-width: 75%;
+    width: 75%;
+
+  }
+
+  .ais-SearchBox-input::placeholder {
+    color: #999;
+  }
+
+.ais-SearchBox-form{
+  position: relative;
+}
+
+.ais-SearchBox-submit {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.ais-SearchBox-submit button:focus {
+  outline: none;
+}
+
+  .ais-SearchBox button {
+    display: inline;
+    background-color: rgba(255, 255, 255, 0);
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .search-hits{
+    padding-top: 60px;
+    list-style: none;
+  }
+
+  .ais-Hits-list {
+    list-style: none;
+  }
+
+  .ais-SearchBox-resetIcon {
+    display: none;
+  }
+
+  </style>
 
 <div class="columns left large-3 lh-left-nav">
   {% include recently-updated.html %}
-  {% include guides.html %}
 </div>
 <div class="columns right large-9 lh-content">
-  <div class="search-box">
-    <input class="search-txt" type="text" name="" placeholder="Type to search">
-    <a class="search-btn" href="#">
+  <div id="searchbox"></div>
+  <div class="search-hits" id="hits"></div>
+  {% raw %}
+  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@3.32.0/dist/algoliasearchLite.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@beta"></script>
 
-    </a>
-  </div>
+  <script>
+    const search = instantsearch({
+      indexName: "learninghub",
+      searchClient: algoliasearch(
+        "6WV9RIWWJC",
+        "77a29259d33de9e1ff34c4676e00ee17"
+      )
+    });
+    search.addWidget(
+      instantsearch.widgets.searchBox({
+        container: "#searchbox",
+        placeholder: "Start typing to search articles… ",
+        magnifier: true
+      })
+    );
+
+    function trimEnd(str, delimiter) {
+      var idx = str.indexOf(delimiter);
+      return idx > 0 ? str.substring(0, idx) : str;
+    }
+
+    const itemTmpl = `
+    <div class="hit_title">
+      <a href="{{ url }}"><strong>{{ title }}</strong></a>
+    </div>
+    <div class="hit_description mb-15"><em>{{{ description }}}&hellip;</em></div>
+    `;
+    search.addWidget(
+      instantsearch.widgets.hits({
+        container: "#hits",
+        transformItems: items =>
+          items.map(item => {
+            item.title = trimEnd(item.title, "|");
+            return item;
+          }),
+        templates: {
+          empty: "No results",
+          item: itemTmpl
+        }
+      })
+    );
+
+    search.start();
+  </script>
+  {% endraw %}
 </div>
