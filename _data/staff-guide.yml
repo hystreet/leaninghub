@@ -9,6 +9,8 @@
       path: /guides/staff-site/using_the_staff_site_from_different_devices
     - name: Changing your login details
       path: /guides/staff-site/changing_your_login_details
+    - name: Filtering on the property list
+      path: /guides/staff-site/filtering_the_property_list
 - name: Adding a Property
   section_id: adding a property
   children:
