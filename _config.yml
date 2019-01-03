@@ -21,7 +21,7 @@ permalink: /:categories/:title
 algolia:
   application_id: 6WV9RIWWJC
   index_name:     learninghub # You can replace that with whatever name you want
-  search_only_api_key: 7469e947549e8ead11d77acaf8d2cdc3
+  search_only_api_key: 77a29259d33de9e1ff34c4676e00ee17
   files_to_exclude:
     - _releases/*
     - _posts/*
