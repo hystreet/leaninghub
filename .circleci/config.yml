@@ -120,7 +120,7 @@ jobs:
             # Update Algoria (Search)
             - run:
                 name: Update Algoria
-                command: ALGOLIA_API_KEY='77a29259d33de9e1ff34c4676e00ee17' bundle exec jekyll algolia
+                command: ALGOLIA_API_KEY='1f1821e8e296e683d6833eff4331a54c' bundle exec jekyll algolia
 
 workflows:
     version: 2
