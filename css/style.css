@@ -2466,6 +2466,15 @@ body {
   transition: background 0.3s;
 }
 
+@media screen and (max-width: 1024px) {
+  .image-button-box {
+    max-width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
 .image-button-box:hover {
   transition: background 0.3s;
   background: #dfdfdf;
