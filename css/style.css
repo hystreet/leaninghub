@@ -2581,6 +2581,11 @@ body {
 .podcast-player{
   display: block;
   text-align: center;
-  max-width: 200px;
-  width: 200px;
+}
+@media screen and (max-width: 966px) {
+  .podcast-player {
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
