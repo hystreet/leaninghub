@@ -4,31 +4,18 @@ title: News | Learning Hub | Hystreet
 description: All the latest news and updates from the Hystreet team. Find out the latest from us on this page.
 section_id: home
 ---
-
-<div class='full'>
-  <div class='row'>
-    <div class='special-title layout-text'>
-      <h2>News</h2>
-      <p style="text-align: center;">Catch up with all the latest news from Hystreet</p>
-      <p class='shortline'></p>
-    </div>
-    <div class='spacing'></div>
-    <div class='spacing'></div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <ul>
-        {% for post in site.posts %}
-          <li class="blog-snippet">
-            <span class='month'>{{ post.date | date: "%h" }}</span>
-            <span class='date'>{{ post.date | date: "%d" }}</span>
-                  <h3 href="{{ post.url }}">{{ post.title }}</h3>
-            <img src="{{ post.image }}" alt="{{ post.alt}}">
-            <p>{{ post.description }}</p>
-            <p class="readmore"><a href="{{ post.url }}">Read More</a></p>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>    
+<h1>News</h1>
+<p style="text-align: center;">Catch up with all the latest news from Hystreet</p>
+<p class='shortline'></p>
+<ul style="margin-left: 0px;">
+  {% for post in site.posts %}
+    <li class="blog-snippet">
+      <span class='month'>{{ post.date | date: "%h" }}</span>
+      <span class='date'>{{ post.date | date: "%d" }}</span>
+            <h3 href="{{ post.url }}">{{ post.title }}</h3>
+      <img src="{{ post.image }}" alt="{{ post.alt}}">
+      <p>{{ post.description }}</p>
+      <p class="readmore"><a href="{{ post.url }}">Read More</a></p>
+    </li>
+  {% endfor %}
+</ul>

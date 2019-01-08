@@ -4,34 +4,21 @@ title: Releases | Learning Hub | Hystreet
 description: Find out about the latest releases and software updates from the Hystreet tech team.
 section_id: home
 ---
-
-<div class='full'>
-  <div class='row'>
-    <div class='special-title layout-text'>
-      <h2>Releases</h2>
-      <p style="text-align: center;">Details of Hystreet's latest software releases</p>
-      <p class='shortline'></p>
-    </div>
-    <div class='spacing'></div>
-    <div class='spacing'></div>
-  </div>
-  <div class='row'>
-    <div>
-      <ul>
-        {% for post in site.releases reversed %}
-          <li class="mb-15 blog-snippet" style="padding-bottom: 0px;">
-            <div class="row">
-          		<div class="columns left large-9">
-                <span class='month'><strong>{{ post.title }}</strong> | <em>{{ post.date | date_to_string }}</em></span>
-                <p>{{ post.description }}</p>
-              </div>
-              <div class="columns right large-3">
-                <a class="button" href="{{ post.url }}">Read More</a>
-              </div>
-            </div>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
+<h1>Releases</h1>
+<p style="text-align: center;">Details of Hystreet's latest software releases</p>
+<p class='shortline'></p>
+<ul style="margin-left: 0px;">
+  {% for post in site.releases reversed %}
+    <li class="mb-15 blog-snippet" style="padding-bottom: 0px;">
+      <div class="row">
+    		<div class="columns left large-8">
+          <span class='month'><strong>{{ post.title }}</strong> | <em>{{ post.date | date_to_string }}</em></span>
+          <p>{{ post.description }}</p>
+        </div>
+        <div class="columns right large-4">
+          <a class="button" href="{{ post.url }}">Read More</a>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
