@@ -20,6 +20,8 @@
       path: /guides/appointments/How_to_amend_an_appointment
     - name: How to cancel an appointment
       path: /guides/appointments/How_to_cancel_an_appointment
+    - name: How to view appointments from the staff site
+      path: /guides/appointments/how_to_view_appointments_from_the_staff_site
 - name: From the consumer site
   section_id: consumer-site
   children:

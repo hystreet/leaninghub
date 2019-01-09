@@ -1,6 +1,8 @@
 - name: Recently Updated
   section_id: What's new
   children:
+    - name: How To View Appointments From The Staff Site
+      path: guides/appointments/how_to_view_appointments_from_the_staff_site/
     - name: Filtering the property list
       path: guides/staff-site/filtering_the_property_list/
     - name: Learning Hub Article Search
@@ -9,5 +11,3 @@
       path: guides/staff-site/sending_booking_links_to_clients
     - name: Using the Platform As a Seller
       path: guides/seller
-    - name: The Staff Site Guide
-      path: guides/staff-site
