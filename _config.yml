@@ -1,14 +1,7 @@
 name: Hystreet
 markdown: redcarpet
 highlighter: pygments
-excerpt_separator: <!--more-->
-paginate: 3
-paginate_path: "blog/page:num"
-collections:
-  releases:
-    output: true
-    # permalink: /:categories/:title
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate-v2]
 exclude:
   - vendor
   - Gemfile
@@ -16,11 +9,23 @@ exclude:
   - s3_website.yml
   - circle.yml
   - doc
+
+excerpt_separator: <!--more-->
+
+collections:
+  releases:
+    output: true
+
 permalink: /:categories/:title
+
+pagination:
+  enabled: true
+  debug: true
+  per_page: 3
 
 algolia:
   application_id: 6WV9RIWWJC
-  index_name:     learninghub # You can replace that with whatever name you want
+  index_name: learninghub # You can replace that with whatever name you want
   search_only_api_key: 77a29259d33de9e1ff34c4676e00ee17
   files_to_exclude:
     - _releases/*
