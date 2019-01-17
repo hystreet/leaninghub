@@ -1,5 +1,5 @@
 ---
-layout: news-paginator
+layout: blog
 title: News | Learning Hub | Hystreet
 description: All the latest news and updates from the Hystreet team. Find out the latest from us on this page.
 section_id: home
@@ -8,10 +8,7 @@ section_id: home
 <p style="text-align: center;">Catch up with all the latest news from Hystreet</p>
 <p class='shortline'></p>
 <ul style="margin-left: 0px;">
-
-
-
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
     <li class="blog-snippet">
       <span class='month'>{{ post.date | date: "%h" }}</span>
       <span class='date'>{{ post.date | date: "%d" }}</span>
