@@ -22,6 +22,8 @@ pagination:
   enabled: true
   debug: true
   per_page: 3
+  permalink: 'page-:num/'
+  sort_reverse: true
 
 algolia:
   application_id: 6WV9RIWWJC
