@@ -3,7 +3,7 @@ markdown: redcarpet
 highlighter: pygments
 excerpt_separator: <!--more-->
 paginate: 3
-paginate_path: "blog/page:num"
+paginate_path: "news/page:num"
 collections:
   releases:
     output: true
@@ -38,3 +38,11 @@ algolia:
     - guides/staff-site/index.html
     - guides/your-website/index.html
     - faqs/index.html
+
+# autopages:
+#   enabled: true
+#   collections:
+#     layouts:
+#       - 'autopage_collection.html'
+#     title: 'Posts in collection :coll' # :coll is replaced by the collection name
+#     permalink: '/collection/:coll'
