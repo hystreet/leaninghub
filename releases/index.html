@@ -1,21 +1,14 @@
 ---
-layout: release-paginator
+layout: blog
 title: Releases | Learning Hub | Hystreet
 description: Find out about the latest releases and software updates from the Hystreet tech team.
 section_id: home
-pagination:
-  enabled: true
-  paginate_path: "releases/page:num"
 ---
 <h1>Releases</h1>
 <p style="text-align: center;">Details of Hystreet's latest software releases</p>
 <p class='shortline'></p>
 <ul style="margin-left: 0px;">
-
-<h1>sfdsdfgsdfg</h1>
-{{ paginator | json }}
-
-  {% for post in paginator.posts  %}
+  {% for post in site.releases reversed %}
     <li class="mb-15 blog-snippet" style="padding-bottom: 0px;">
       <div class="row">
     		<div class="columns left large-8">
