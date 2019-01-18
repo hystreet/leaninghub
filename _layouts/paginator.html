@@ -12,7 +12,7 @@ layout: default
       <span class="older"><em>&laquo; Older Posts</em></span>
     {% endif %}
     {% if paginator.previous_page %}
-      <a class="newer" href="{{ paginator.previous_page_path | replace: 'index.html', '' | prepend: site.baseurl }}"><strong>Newer posts &raquo;</strong</a>
+      <a class="newer" href="{{ paginator.previous_page_path | replace: 'index.html', '' | prepend: site.baseurl }}"><strong>Newer posts &raquo;</strong></a>
     {% else %}
       <span class="newer"><em>Newer posts &raquo;</em></span>
     {% endif %}
