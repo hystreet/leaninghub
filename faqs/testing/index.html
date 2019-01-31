@@ -16,11 +16,17 @@ menu: site.data.birds
     <dd class="accordion-navigation">
       <a href="#panel1"><strong>Can I run test properties?</strong></a>
       <div id="panel1" class="content active">
-        <p>It is possible to run test properties.
-          In order to do so, a user on the staff site with admin rights will need enter your branch’s Stripe public and secret test keys by going to admin -> branches.
-          While using the test keys, you will be able to complete test payments using the given test card details.</P>
+        <p>Yes - you will just need to make sure you are using your Stripe test keys.
+          If you are an Admin user, you can update your Stripe keys by clicking on your initials in the top right corner and going to <strong>'Branches'</strong>
+          The boxes to change your Stripe keys are at the bottom of this page.
+          Look for the words ‘test’ or ‘live’ in your keys to tell which keys you are currently using.</P>
+        <p>If you enter your test keys (usually of the format sk_test_xxxx and pk_test_xxxx) you’ll be able to see how the system handles different responses for you using the test card numbers.
+          For just running through some test customers and doing training the card number you are looking for is <strong>4242 4242 4242 4242</strong>.
+          With that card you can use any 3 digit CVC and any expiry date that is in the future.</p>
+        <p>Using the test keys means that a transaction won't actually be completed but the it will look like a payment has been processed on your test property.
+          This allows you to see the actual process you or a customer would follow to make a payment.
         <p>Once you have finished testing, you will need to switch your Stripe keys back to the live codes in order to continue handling real life products.
-          Read our guide on <a href="/guides/setting-up-stripe/">setting up your stripe account</a> to find out more about your Stripe keys</p>
+          Read our guide on <a href="/guides/setting-up-stripe/">setting up your stripe account</a> to find out more about your Stripe keys.</p>
       </div>
     </dd>
   </dl>

@@ -1,13 +1,15 @@
 - name: Recently Updated
   section_id: What's new
   children:
-    - name: How To View Appointments From The Staff Site
+    - name: Updating your terms and conditions
+      path: guides/getting-started-with-hystreet/terms_and_conditions
+    - name: Registering a new property
+      path: guides/staff-site/registering_a_new_property/
+    - name: How to view appointments from the staff site
       path: guides/appointments/how_to_view_appointments_from_the_staff_site/
     - name: Filtering the property list
       path: guides/staff-site/filtering_the_property_list/
-    - name: Learning Hub Article Search
+    - name: Learning Hub article search
       path: search/
     - name: Sending booking links to clients
       path: guides/staff-site/sending_booking_links_to_clients
-    - name: Using the Platform As a Seller
-      path: guides/seller
