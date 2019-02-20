@@ -11,6 +11,8 @@
       path: /guides/staff-site/changing_your_login_details
     - name: Filtering on the property list
       path: /guides/staff-site/filtering_the_property_list
+    - name: Using voucher codes
+      path: /guides/staff-site/using_voucher_codes
 - name: Adding a Property
   section_id: adding a property
   children:
