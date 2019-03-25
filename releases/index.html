@@ -15,13 +15,13 @@ pagination:
 <ul style="margin-left: 0px;">
   {% for post in paginator.posts %}
     <li class="mb-15 blog-snippet" style="padding-bottom: 0px;">
-      <div class="row">
+      <div class="row Aligner">
     		<div class="columns left large-8">
           <span class='month'><strong>{{ post.title }}</strong> | <em>{{ post.date | date_to_string }}</em></span>
           <p>{{ post.description }}</p>
         </div>
         <div class="columns right large-4">
-          <a class="button" href="{{ post.url }}">Read More</a>
+          <a class="button Aligner-item" href="{{ post.url }}">Read More</a>
         </div>
       </div>
     </li>

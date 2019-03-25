@@ -2612,3 +2612,27 @@ body {
     text-align: center;
   }
 }
+@media only screen and (min-width: 967px) {
+  .Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Aligner-item {
+    flex: 1;
+  }
+
+  .Aligner-item--top {
+    align-self: flex-start;
+  }
+
+  .Aligner-item--bottom {
+    align-self: flex-end;
+  }
+
+  .Aligner-item--fixed {
+    flex: none;
+    max-width: 50%;
+  }
+}
