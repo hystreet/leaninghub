@@ -13,6 +13,8 @@
       path: /guides/staff-site/filtering_the_property_list
     - name: Using voucher codes
       path: /guides/staff-site/using_voucher_codes
+    - name: Getting a property to market
+      path: /guides/staff-site/getting_a_property_to_market
 - name: Adding a Property
   section_id: adding a property
   children:
@@ -50,8 +52,8 @@
 - name: Compliance
   section_id: compliance
   children:
-    - name: Completing a property factfind
-      path: /guides/staff-site/completing_a_property_factfind
+    - name: Completing a property fact find
+      path: /guides/staff-site/completing_a_property_fact_find
     - name: Completing an ID check
       path: /guides/staff-site/completing_an_ID_check
     - name: Uploading an EPC

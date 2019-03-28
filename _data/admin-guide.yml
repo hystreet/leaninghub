@@ -24,8 +24,8 @@
       path: /guides/getting-started-with-hystreet/branch_information
     - name: Setting your service fees
       path: /guides/getting-started-with-hystreet/setting_your_service_fees
-    - name: Setting up your portals
-      path: /guides/getting-started-with-hystreet/setting_up_your_portals
+    - name: Portal Branch IDs
+      path: /guides/getting-started-with-hystreet/portal_branch_IDs
     - name: Using Stripe
       path: /guides/getting-started-with-hystreet/using_stripe
 - name: Agents
