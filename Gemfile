@@ -14,4 +14,4 @@ group :jekyll_plugins do
 end
 
 # Added at 2019-01-17 14:52:10 +0000 by kevin:
-gem "jekyll-paginate-v2", "~> 2.1"
+gem "jekyll-paginate-v2", "= 2.0.0"
