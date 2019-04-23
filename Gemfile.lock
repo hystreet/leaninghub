@@ -169,7 +169,7 @@ GEM
     jekyll-optional-front-matter (0.3.0)
       jekyll (~> 3.0)
     jekyll-paginate (1.1.0)
-    jekyll-paginate-v2 (2.1.0)
+    jekyll-paginate-v2 (2.0.0)
       jekyll (~> 3.0)
     jekyll-readme-index (0.2.0)
       jekyll (~> 3.0)
@@ -300,7 +300,7 @@ DEPENDENCIES
   github-pages
   html-proofer (~> 3.8)
   jekyll-algolia
-  jekyll-paginate-v2 (~> 2.1)
+  jekyll-paginate-v2 (= 2.0.0)
   s3_website (~> 3.4)
 
 BUNDLED WITH
